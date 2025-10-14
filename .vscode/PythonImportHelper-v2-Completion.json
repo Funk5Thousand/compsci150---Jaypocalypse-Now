@@ -1,0 +1,803 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "utilities",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "utilities",
+        "description": "utilities",
+        "detail": "utilities",
+        "documentation": {}
+    },
+    {
+        "label": "yara",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yara",
+        "description": "yara",
+        "detail": "yara",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.app_20251013191722",
+        "description": ".history.app_20251013191722",
+        "peekOfCode": "def get_yara_rules():\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.",
+        "detail": ".history.app_20251013191722",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.app_20251013191730",
+        "description": ".history.app_20251013191730",
+        "peekOfCode": "def get_yara_rules():\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"",
+        "detail": ".history.app_20251013191730",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.app_20251013191946",
+        "description": ".history.app_20251013191946",
+        "peekOfCode": "def get_yara_rules():\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara files",
+        "detail": ".history.app_20251013191946",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.app_20251013192024",
+        "description": ".history.app_20251013192024",
+        "peekOfCode": "def get_yara_rules():\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"",
+        "detail": ".history.app_20251013192024",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.app_20251013192202",
+        "description": ".history.app_20251013192202",
+        "peekOfCode": "def get_yara_rules():\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = []",
+        "detail": ".history.app_20251013192202",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.app_20251013192229",
+        "description": ".history.app_20251013192229",
+        "peekOfCode": "def get_yara_rules():\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = []\n    for root, _, files in os.walk()",
+        "detail": ".history.app_20251013192229",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.app_20251013192241",
+        "description": ".history.app_20251013192241",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = []\n    for root, _, files in os.walk()",
+        "detail": ".history.app_20251013192241",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.app_20251013192334",
+        "description": ".history.app_20251013192334",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = []\n    for root, _, files in os.walk(directory):\n        for file in files:\n            if file.endswith(extension):",
+        "detail": ".history.app_20251013192334",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.app_20251013192343",
+        "description": ".history.app_20251013192343",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = []\n    for root, _, files in os.walk(directory):\n        for file in files:\n            if file.endswith(extension):",
+        "detail": ".history.app_20251013192343",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013192503",
+        "description": ".history.app_20251013192503",
+        "peekOfCode": "def main():",
+        "detail": ".history.app_20251013192503",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013195440",
+        "description": ".history.app_20251013195440",
+        "peekOfCode": "def main():",
+        "detail": ".history.app_20251013195440",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013195452",
+        "description": ".history.app_20251013195452",
+        "peekOfCode": "def main():\n    util.get_yara_rules",
+        "detail": ".history.app_20251013195452",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013195514",
+        "description": ".history.app_20251013195514",
+        "peekOfCode": "def main():\n    util.get_yara_rules('C:\\Users\\kgregory\\Documents\\Malware\\compsci150---Jaypocalypse-Now\\yararules')",
+        "detail": ".history.app_20251013195514",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013195550",
+        "description": ".history.app_20251013195550",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('C:\\Users\\kgregory\\Documents\\Malware\\compsci150---Jaypocalypse-Now\\yararules')\n    print(yara_rules_dict)",
+        "detail": ".history.app_20251013195550",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013195628",
+        "description": ".history.app_20251013195628",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('C:\\\\Users\\\\kgregory\\\\Documents\\\\Malware\\\\compsci150---Jaypocalypse-Now\\\\yararules')\n    print(yara_rules_dict)",
+        "detail": ".history.app_20251013195628",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013195656",
+        "description": ".history.app_20251013195656",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\yararules')\n    print(yara_rules_dict)",
+        "detail": ".history.app_20251013195656",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013195729",
+        "description": ".history.app_20251013195729",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\yararules')\n    print(yara_rules_dict)\nif",
+        "detail": ".history.app_20251013195729",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013195748",
+        "description": ".history.app_20251013195748",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\yararules')\n    print(yara_rules_dict)\nif __name__ == \"__main__\":\nmain()",
+        "detail": ".history.app_20251013195748",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013195937",
+        "description": ".history.app_20251013195937",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    print(yara_rules_dict)\nif __name__ == \"__main__\":\nmain()",
+        "detail": ".history.app_20251013195937",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013200016",
+        "description": ".history.app_20251013200016",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    print(yara_rules_dict)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013200016",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013200750",
+        "description": ".history.app_20251013200750",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    print(yara_rules_dict)\n    compiled_rules = yara.compile\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013200750",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013200815",
+        "description": ".history.app_20251013200815",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    print(yara_rules_dict)\n    compiled_rules = yara.compile(fileaths=yara_rules_dict, \nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013200815",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013200852",
+        "description": ".history.app_20251013200852",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    print(yara_rules_dict)\n    compiled_rules = yara.compile(fileaths=yara_rules_dict, error_on_warnin=True\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013200852",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013200912",
+        "description": ".history.app_20251013200912",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    print(yara_rules_dict)\n    compiled_rules = yara.compile(fileaths=yara_rules_dict, error_on_warnin=True)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013200912",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013200920",
+        "description": ".history.app_20251013200920",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    print(yara_rules_dict)\n    compiled_rules = yara.compile(fileaths=yara_rules_dict, error_on_warnin=True)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013200920",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013200938",
+        "description": ".history.app_20251013200938",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    print(yara_rules_dict)\n    compiled_rules = yara.compile(fileaths=yara_rules_dict, error_on_warnin=True)\n    rules.save(\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013200938",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013200955",
+        "description": ".history.app_20251013200955",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    print(yara_rules_dict)\n    compiled_rules = yara.compile(fileaths=yara_rules_dict, error_on_warnin=True)\n    rules.save('.//yara\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013200955",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013201019",
+        "description": ".history.app_20251013201019",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    print(yara_rules_dict)\n    compiled_rules = yara.compile(fileaths=yara_rules_dict, error_on_warnin=True)\n    rules.save('.//yararules//yara_compiled_rules')\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013201019",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013201046",
+        "description": ".history.app_20251013201046",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    print(yara_rules_dict)\n    if\n    compiled_rules = yara.compile(fileaths=yara_rules_dict, error_on_warnin=True)\n    rules.save('.//yararules//yara_compiled_rules')\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013201046",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013201117",
+        "description": ".history.app_20251013201117",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    print(yara_rules_dict)\n    if os.path.exists(\n    compiled_rules = yara.compile(fileaths=yara_rules_dict, error_on_warnin=True)\n    rules.save('.//yararules//yara_compiled_rules')\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013201117",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013201214",
+        "description": ".history.app_20251013201214",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    print(yara_rules_dict)\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        compiled_rules = yara.compile(fileaths=yara_rules_dict, error_on_warnin=True)\n        rules.save('.//yararules//yara_compiled_rules')\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013201214",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013201438",
+        "description": ".history.app_20251013201438",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    print(yara_rules_dict)\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        compiled_rules = yara.compile(fileaths=yara_rules_dict, error_on_warnin=False)\n        rules.save('.//yararules//yara_compiled_rules')\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013201438",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013201526",
+        "description": ".history.app_20251013201526",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    print(yara_rules_dict)\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        compiled_rules = yara.compile(fileaths=yara_rules_dict, error_on_warnin=False)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013201526",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013201835",
+        "description": ".history.app_20251013201835",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    print(yara_rules_dict)\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        compiled_rules = yara.compile(filepaths=yara_rules_dict, error_on_warnin=False)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013201835",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013201850",
+        "description": ".history.app_20251013201850",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    print(yara_rules_dict)\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013201850",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013201916",
+        "description": ".history.app_20251013201916",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013201916",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013202011",
+        "description": ".history.app_20251013202011",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        rules = yara.load('.//yararules//yara_compiled_rules')\n        print(\"some nonesense\")\n    else:    \n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251013202011",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013203541",
+        "description": ".history.app_20251013203541",
+        "peekOfCode": "def main():\n    yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        rules = yara.load('.//yararules//yara_compiled_rules')\n        print(\"some nonesense\")\n    else:    \n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    util.get_all_files\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251013203541",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013203635",
+        "description": ".history.app_20251013203635",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        rules = yara.load('.//yararules//yara_compiled_rules')\n        print(\"some nonesense\")\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    util.get_all_files\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251013203635",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013203710",
+        "description": ".history.app_20251013203710",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        rules = yara.load('.//yararules//yara_compiled_rules')\n        print(\"some nonesense\")\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    util.get_all_files(\"C:\\\\\")\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251013203710",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013203743",
+        "description": ".history.app_20251013203743",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        rules = yara.load('.//yararules//yara_compiled_rules')\n        print(\"some nonesense\")\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    files_to_scan = util.get_all_files(\"C:\\\\\")\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251013203743",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013203802",
+        "description": ".history.app_20251013203802",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        rules = yara.load('.//yararules//yara_compiled_rules')\n        print(\"some nonesense\")\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    files_to_scan = util.get_all_files(\"C:\\\\\")\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251013203802",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013203831",
+        "description": ".history.app_20251013203831",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n        print(\"some nonesense\")\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    matches",
+        "detail": ".history.app_20251013203831",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013203911",
+        "description": ".history.app_20251013203911",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n        print(\"some nonesense\")\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251013203911",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013203919",
+        "description": ".history.app_20251013203919",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n        print(\"some nonesense\")\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251013203919",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013203938",
+        "description": ".history.app_20251013203938",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n        print(\"some nonesense\")\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251013203938",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013203952",
+        "description": ".history.app_20251013203952",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        compiled_rules.match(file)",
+        "detail": ".history.app_20251013203952",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013204126",
+        "description": ".history.app_20251013204126",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        compiled_rules.match(file)",
+        "detail": ".history.app_20251013204126",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013204132",
+        "description": ".history.app_20251013204132",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        matches = compiled_rules.match(file)",
+        "detail": ".history.app_20251013204132",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013204400",
+        "description": ".history.app_20251013204400",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:",
+        "detail": ".history.app_20251013204400",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013204520",
+        "description": ".history.app_20251013204520",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:",
+        "detail": ".history.app_20251013204520",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013204652",
+        "description": ".history.app_20251013204652",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:",
+        "detail": ".history.app_20251013204652",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013204748",
+        "description": ".history.app_20251013204748",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:",
+        "detail": ".history.app_20251013204748",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013210310",
+        "description": ".history.app_20251013210310",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251013210310",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013210325",
+        "description": ".history.app_20251013210325",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251013210325",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013210335",
+        "description": ".history.app_20251013210335",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251013210335",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013210346",
+        "description": ".history.app_20251013210346",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251013210346",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251013210458",
+        "description": ".history.app_20251013210458",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251013210458",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013192430",
+        "description": ".history.utilities_20251013192430",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = []\n    for root, _, files in os.walk(directory):\n        for file in files:\n            if file.endswith(extension):",
+        "detail": ".history.utilities_20251013192430",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013193341",
+        "description": ".history.utilities_20251013193341",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013193341",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013193641",
+        "description": ".history.utilities_20251013193641",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013193641",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013193707",
+        "description": ".history.utilities_20251013193707",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013193707",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013193808",
+        "description": ".history.utilities_20251013193808",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013193808",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013193831",
+        "description": ".history.utilities_20251013193831",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013193831",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013193906",
+        "description": ".history.utilities_20251013193906",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013193906",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013193935",
+        "description": ".history.utilities_20251013193935",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013193935",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013194127",
+        "description": ".history.utilities_20251013194127",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013194127",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013195857",
+        "description": ".history.utilities_20251013195857",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013195857",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013202915",
+        "description": ".history.utilities_20251013202915",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013202915",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013202943",
+        "description": ".history.utilities_20251013202943",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013202943",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013202943",
+        "description": ".history.utilities_20251013202943",
+        "peekOfCode": "def get_all_files(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = []\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013202943",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013202954",
+        "description": ".history.utilities_20251013202954",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013202954",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013202954",
+        "description": ".history.utilities_20251013202954",
+        "peekOfCode": "def get_all_files(drive_root):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = []\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013202954",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013203011",
+        "description": ".history.utilities_20251013203011",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013203011",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013203011",
+        "description": ".history.utilities_20251013203011",
+        "peekOfCode": "def get_all_files(drive_root):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = []\n    for root, _, files in os.walk(drive_root):\n        for file in files:\n            if file.endswith(\".yar\"):",
+        "detail": ".history.utilities_20251013203011",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013203027",
+        "description": ".history.utilities_20251013203027",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013203027",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013203027",
+        "description": ".history.utilities_20251013203027",
+        "peekOfCode": "def get_all_files(drive_root):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of YARA rule file paths.\n   \"\"\"\n    yara_files = []\n    for root, _, files in os.walk(drive_root):\n        for file in files:\n            if file.endswith(\".yar\"):",
+        "detail": ".history.utilities_20251013203027",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013203044",
+        "description": ".history.utilities_20251013203044",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013203044",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013203044",
+        "description": ".history.utilities_20251013203044",
+        "peekOfCode": "def get_all_files(drive_root):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of all the files on a computer\n   \"\"\"\n    yara_files = []\n    for root, _, files in os.walk(drive_root):\n        for file in files:\n            if file.endswith(\".yar\"):",
+        "detail": ".history.utilities_20251013203044",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013203131",
+        "description": ".history.utilities_20251013203131",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013203131",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013203131",
+        "description": ".history.utilities_20251013203131",
+        "peekOfCode": "def get_all_files(drive_root):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of all the files on a computer\n   \"\"\"\n    all_files_list = []\n    for root, _, files in os.walk(drive_root):\n        for file in files:\n            all_files_list.append(file)",
+        "detail": ".history.utilities_20251013203131",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013203420",
+        "description": ".history.utilities_20251013203420",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251013203420",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251013203420",
+        "description": ".history.utilities_20251013203420",
+        "peekOfCode": "def get_all_files(drive_root):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of all the files on a computer\n   \"\"\"\n    all_files_list = []\n    for root, _, files in os.walk(drive_root):\n        for file in files:\n            all_files_list.append(os.path.join(root, file))",
+        "detail": ".history.utilities_20251013203420",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": "utilities",
+        "description": "utilities",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": "utilities",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": "utilities",
+        "description": "utilities",
+        "peekOfCode": "def get_all_files(drive_root):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of all the files on a computer\n   \"\"\"\n    all_files_list = []\n    for root, _, files in os.walk(drive_root):\n        for file in files:\n            all_files_list.append(os.path.join(root, file))",
+        "detail": "utilities",
+        "documentation": {}
+    }
+]
