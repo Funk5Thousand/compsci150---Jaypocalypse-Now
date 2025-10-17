@@ -49,6 +49,9 @@ started writing code. That code is now present in this repository. By the end of
 Class #2 of group project.
 
 So we proved that our project is feasible, something within the realm of our skillset and got some rudimentary function from it using python-yara. Now we want to build out some CLI UI functionality. Add a few options to select from, give some informative feedback to our users as the application is running, and look into scanning the actively loaded and running processes. We will also be able to make our yara rules folder much more robust and likely circumvent the Edge browser virus block notifications we received upon initial attempt to grab these rules.
+
+#End of class 2. We did not get very far thanks to surveys etc. We moved some functions from the main app to the utilities.py file, we added some user interaction, we added process scanning, and we had technological difficulties. I am working on those. We also had a fiery discussion on how to help students learn better, I will take that feed back into account and we will start fresh nexet class with making the application more user friendly. I will also bring a laptop and we will reformat it and attempt to infect it with malware.
+
 ---
 
 ## 🚀 Installation
