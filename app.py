@@ -1,18 +1,35 @@
 import utilities as util
 import yara
 import os
+import psutil
 
 def main():
 
 
-    if os.path.exists('.//yararules//yara_compiled_rules'):
-        compiled_rules = yara.load('.//yararules//yara_compiled_rules')
-    
+    print("Welcome to CompSci 150 Malware Scanner")
+    print(" ")
 
-    else:    
-        yara_rules_dict = util.get_yara_rules('.\\yararules')
-        compiled_rules = yara.compile(filepaths=yara_rules_dict)
-        compiled_rules.save('.//yararules//yara_compiled_rules')
+    user_response = input('''
+          Welcome, What would you like to do? Enter the number for your choice.
+                          
+        1) Scan the file system.
+        2) Scan the active running processes.
+        3) Scan the entire system.
+                          
+                        ''')
+    if user_response == '1':
+            scan_file_system()
+    elif user_response == '2':
+            scan_processes()
+    elif user_response == '3':
+            scan_file_system()
+            scan_processes()
+    else:
+            print("That selection does not exist")
+
+
+def scan_file_system():
+    compiled_rules = util.get_compiled_rules()
     matches = []
     files_to_scan = util.get_all_files("C:\\")
     for file in files_to_scan:
@@ -25,6 +42,12 @@ def main():
     for match in matches:
         for item in match:
             print(str(item))
-    print("asdfd")
+def scan_processes():
+    compiled_rules = util.get_compiled_rules()
+    pids = util.get_process_pids()
+    for id in pids:
+        matches = compiled_rules.match(pid=id)
+
+
 if __name__ == "__main__":
     main()

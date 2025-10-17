@@ -1,6 +1,7 @@
 import os
-
-def get_yara_rules(yara_directory):
+import psutil
+import yara
+def get_yara_rules_paths(yara_directory):
     """
     Load YARA rules from the 'yara_rules' directory.
 
@@ -29,3 +30,18 @@ def get_all_files(drive_root):
         for file in files:
             all_files_list.append(os.path.join(root, file))
     return all_files_list
+
+
+def get_process_pids():
+    return psutil.pids()
+
+def get_compiled_rules():
+    if os.path.exists('.//yararules//yara_compiled_rules'):
+        compiled_rules = yara.load('.//yararules//yara_compiled_rules')
+    
+
+    else:    
+        yara_rules_dict = get_yara_rules_paths('.\\yararules')
+        compiled_rules = yara.compile(filepaths=yara_rules_dict)
+        compiled_rules.save('.//yararules//yara_compiled_rules')
+    return compiled_rules

@@ -46,6 +46,9 @@ number and reputation of the number of security community representatives who al
 started writing code. That code is now present in this repository. By the end of our first class, we had gathered some yara rules, and written a basic application to scan the file system for malware. We're off to a healthy start.
 
 
+Class #2 of group project.
+
+So we proved that our project is feasible, something within the realm of our skillset and got some rudimentary function from it using python-yara. Now we want to build out some CLI UI functionality. Add a few options to select from, give some informative feedback to our users as the application is running, and look into scanning the actively loaded and running processes. We will also be able to make our yara rules folder much more robust and likely circumvent the Edge browser virus block notifications we received upon initial attempt to grab these rules.
 ---
 
 ## 🚀 Installation

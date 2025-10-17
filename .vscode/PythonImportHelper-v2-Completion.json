@@ -27,6 +27,86 @@
         "documentation": {}
     },
     {
+        "label": "psutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "psutil",
+        "description": "psutil",
+        "detail": "psutil",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "codecs",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "codecs",
+        "description": "codecs",
+        "detail": "codecs",
+        "documentation": {}
+    },
+    {
         "label": "get_yara_rules",
         "kind": 2,
         "importPath": ".history.app_20251013191722",
@@ -549,6 +629,933 @@
         "documentation": {}
     },
     {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016192726",
+        "description": ".history.app_20251016192726",
+        "peekOfCode": "def main():\nif __name__ == \"__main__\":\n    main()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []",
+        "detail": ".history.app_20251016192726",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016192750",
+        "description": ".history.app_20251016192750",
+        "peekOfCode": "def main():\nif __name__ == \"__main__\":\n    main()\ndef scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.app_20251016192750",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016192750",
+        "description": ".history.app_20251016192750",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016192750",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016192849",
+        "description": ".history.app_20251016192849",
+        "peekOfCode": "def main():\ndef scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")",
+        "detail": ".history.app_20251016192849",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016192849",
+        "description": ".history.app_20251016192849",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016192849",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016192858",
+        "description": ".history.app_20251016192858",
+        "peekOfCode": "def main():\ndef scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")",
+        "detail": ".history.app_20251016192858",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016192858",
+        "description": ".history.app_20251016192858",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016192858",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016192938",
+        "description": ".history.app_20251016192938",
+        "peekOfCode": "def main():\n    scan_file_system()\ndef scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []",
+        "detail": ".history.app_20251016192938",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016192938",
+        "description": ".history.app_20251016192938",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016192938",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016193032",
+        "description": ".history.app_20251016193032",
+        "peekOfCode": "def main():\n    scan_file_system()\ndef scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []",
+        "detail": ".history.app_20251016193032",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016193032",
+        "description": ".history.app_20251016193032",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016193032",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016193234",
+        "description": ".history.app_20251016193234",
+        "peekOfCode": "def main():\n    Print(\"Welcome to CompSci 150 Malware Scanner\")\n    scan_file_system()\ndef scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.app_20251016193234",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016193234",
+        "description": ".history.app_20251016193234",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016193234",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016193742",
+        "description": ".history.app_20251016193742",
+        "peekOfCode": "def main():\n    Print(\"Welcome to CompSci 150 Malware Scanner\")\n    input('''\n    scan_file_system()\ndef scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)",
+        "detail": ".history.app_20251016193742",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016193742",
+        "description": ".history.app_20251016193742",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016193742",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016193814",
+        "description": ".history.app_20251016193814",
+        "peekOfCode": "def main():\n    Print(\"Welcome to CompSci 150 Malware Scanner\")\n    input('''\n          Welcome\n    scan_file_system()\ndef scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')",
+        "detail": ".history.app_20251016193814",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016193814",
+        "description": ".history.app_20251016193814",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016193814",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016193926",
+        "description": ".history.app_20251016193926",
+        "peekOfCode": "def main():\n    Print(\"Welcome to CompSci 150 Malware Scanner\")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        '''\n    scan_file_system()\ndef scan_file_system():",
+        "detail": ".history.app_20251016193926",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016193926",
+        "description": ".history.app_20251016193926",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016193926",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016193943",
+        "description": ".history.app_20251016193943",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        '''\n    scan_file_system()",
+        "detail": ".history.app_20251016193943",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016193943",
+        "description": ".history.app_20251016193943",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016193943",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016193952",
+        "description": ".history.app_20251016193952",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    scan_file_system()",
+        "detail": ".history.app_20251016193952",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016193952",
+        "description": ".history.app_20251016193952",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016193952",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016194005",
+        "description": ".history.app_20251016194005",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    scan_file_system()",
+        "detail": ".history.app_20251016194005",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016194005",
+        "description": ".history.app_20251016194005",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016194005",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016194132",
+        "description": ".history.app_20251016194132",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == ",
+        "detail": ".history.app_20251016194132",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016194132",
+        "description": ".history.app_20251016194132",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016194132",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016194150",
+        "description": ".history.app_20251016194150",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == type(1):",
+        "detail": ".history.app_20251016194150",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016194150",
+        "description": ".history.app_20251016194150",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016194150",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016194248",
+        "description": ".history.app_20251016194248",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016194248",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016194248",
+        "description": ".history.app_20251016194248",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016194248",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016194259",
+        "description": ".history.app_20251016194259",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016194259",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016194259",
+        "description": ".history.app_20251016194259",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016194259",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016194347",
+        "description": ".history.app_20251016194347",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016194347",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016194347",
+        "description": ".history.app_20251016194347",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016194347",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016194419",
+        "description": ".history.app_20251016194419",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016194419",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016194419",
+        "description": ".history.app_20251016194419",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016194419",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016194518",
+        "description": ".history.app_20251016194518",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016194518",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016194518",
+        "description": ".history.app_20251016194518",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016194518",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016194604",
+        "description": ".history.app_20251016194604",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016194604",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016194604",
+        "description": ".history.app_20251016194604",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016194604",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016194625",
+        "description": ".history.app_20251016194625",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016194625",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016194625",
+        "description": ".history.app_20251016194625",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016194625",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016194710",
+        "description": ".history.app_20251016194710",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016194710",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016194710",
+        "description": ".history.app_20251016194710",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016194710",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016194755",
+        "description": ".history.app_20251016194755",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016194755",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016194755",
+        "description": ".history.app_20251016194755",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016194755",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016200935",
+        "description": ".history.app_20251016200935",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016200935",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016200935",
+        "description": ".history.app_20251016200935",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016200935",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016201249",
+        "description": ".history.app_20251016201249",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016201249",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016201249",
+        "description": ".history.app_20251016201249",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016201249",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016201249",
+        "description": ".history.app_20251016201249",
+        "peekOfCode": "def scan_processes():\n    pids = util.get_process_pids()\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016201249",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016201334",
+        "description": ".history.app_20251016201334",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016201334",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016201334",
+        "description": ".history.app_20251016201334",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016201334",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016201334",
+        "description": ".history.app_20251016201334",
+        "peekOfCode": "def scan_processes():\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = rules.match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016201334",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016201342",
+        "description": ".history.app_20251016201342",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016201342",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016201342",
+        "description": ".history.app_20251016201342",
+        "peekOfCode": "def scan_file_system():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
+        "detail": ".history.app_20251016201342",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016201342",
+        "description": ".history.app_20251016201342",
+        "peekOfCode": "def scan_processes():\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = .match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016201342",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016201411",
+        "description": ".history.app_20251016201411",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016201411",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016201411",
+        "description": ".history.app_20251016201411",
+        "peekOfCode": "def scan_file_system():\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:\n            matches = compiled_rules.match(file)\n        except Exception as e:\n            print(f\"An error occurred: {e}\")\n            pass\n    for match in matches:",
+        "detail": ".history.app_20251016201411",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016201411",
+        "description": ".history.app_20251016201411",
+        "peekOfCode": "def scan_processes():\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = .match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016201411",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016201454",
+        "description": ".history.app_20251016201454",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016201454",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016201454",
+        "description": ".history.app_20251016201454",
+        "peekOfCode": "def scan_file_system():\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:\n            matches = compiled_rules.match(file)\n        except Exception as e:\n            print(f\"An error occurred: {e}\")\n            pass\n    for match in matches:",
+        "detail": ".history.app_20251016201454",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016201454",
+        "description": ".history.app_20251016201454",
+        "peekOfCode": "def scan_processes():\n    rules = util.get\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = .match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016201454",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016201610",
+        "description": ".history.app_20251016201610",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016201610",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016201610",
+        "description": ".history.app_20251016201610",
+        "peekOfCode": "def scan_file_system():\n    compiled_rules = util.get_compiled_rules()\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:\n            matches = compiled_rules.match(file)\n        except Exception as e:\n            print(f\"An error occurred: {e}\")\n            pass",
+        "detail": ".history.app_20251016201610",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016201610",
+        "description": ".history.app_20251016201610",
+        "peekOfCode": "def scan_processes():\n    rules = util.get\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = .match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016201610",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016201712",
+        "description": ".history.app_20251016201712",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016201712",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016201712",
+        "description": ".history.app_20251016201712",
+        "peekOfCode": "def scan_file_system():\n    compiled_rules = util.get_compiled_rules()\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:\n            matches = compiled_rules.match(file)\n        except Exception as e:\n            print(f\"An error occurred: {e}\")\n            pass",
+        "detail": ".history.app_20251016201712",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016201712",
+        "description": ".history.app_20251016201712",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = .match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016201712",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016201727",
+        "description": ".history.app_20251016201727",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016201727",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016201727",
+        "description": ".history.app_20251016201727",
+        "peekOfCode": "def scan_file_system():\n    compiled_rules = util.get_compiled_rules()\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:\n            matches = compiled_rules.match(file)\n        except Exception as e:\n            print(f\"An error occurred: {e}\")\n            pass",
+        "detail": ".history.app_20251016201727",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016201727",
+        "description": ".history.app_20251016201727",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = compiled_rules.match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016201727",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016202458",
+        "description": ".history.app_20251016202458",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016202458",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016202458",
+        "description": ".history.app_20251016202458",
+        "peekOfCode": "def scan_file_system():\n    compiled_rules = util.get_compiled_rules()\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:\n            matches = compiled_rules.match(file)\n        except Exception as e:\n            print(f\"An error occurred: {e}\")\n            pass",
+        "detail": ".history.app_20251016202458",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016202458",
+        "description": ".history.app_20251016202458",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = compiled_rules.match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016202458",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016202546",
+        "description": ".history.app_20251016202546",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'int':",
+        "detail": ".history.app_20251016202546",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016202546",
+        "description": ".history.app_20251016202546",
+        "peekOfCode": "def scan_file_system():\n    compiled_rules = util.get_compiled_rules()\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:\n            matches = compiled_rules.match(file)\n        except Exception as e:\n            print(f\"An error occurred: {e}\")\n            pass",
+        "detail": ".history.app_20251016202546",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016202546",
+        "description": ".history.app_20251016202546",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = compiled_rules.match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016202546",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016202634",
+        "description": ".history.app_20251016202634",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == type(1):",
+        "detail": ".history.app_20251016202634",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016202634",
+        "description": ".history.app_20251016202634",
+        "peekOfCode": "def scan_file_system():\n    compiled_rules = util.get_compiled_rules()\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:\n            matches = compiled_rules.match(file)\n        except Exception as e:\n            print(f\"An error occurred: {e}\")\n            pass",
+        "detail": ".history.app_20251016202634",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016202634",
+        "description": ".history.app_20251016202634",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = compiled_rules.match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016202634",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016202713",
+        "description": ".history.app_20251016202713",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == :",
+        "detail": ".history.app_20251016202713",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016202713",
+        "description": ".history.app_20251016202713",
+        "peekOfCode": "def scan_file_system():\n    compiled_rules = util.get_compiled_rules()\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:\n            matches = compiled_rules.match(file)\n        except Exception as e:\n            print(f\"An error occurred: {e}\")\n            pass",
+        "detail": ".history.app_20251016202713",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016202713",
+        "description": ".history.app_20251016202713",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = compiled_rules.match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016202713",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016202739",
+        "description": ".history.app_20251016202739",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'str':",
+        "detail": ".history.app_20251016202739",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016202739",
+        "description": ".history.app_20251016202739",
+        "peekOfCode": "def scan_file_system():\n    compiled_rules = util.get_compiled_rules()\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:\n            matches = compiled_rules.match(file)\n        except Exception as e:\n            print(f\"An error occurred: {e}\")\n            pass",
+        "detail": ".history.app_20251016202739",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016202739",
+        "description": ".history.app_20251016202739",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = compiled_rules.match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016202739",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016202749",
+        "description": ".history.app_20251016202749",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == :",
+        "detail": ".history.app_20251016202749",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016202749",
+        "description": ".history.app_20251016202749",
+        "peekOfCode": "def scan_file_system():\n    compiled_rules = util.get_compiled_rules()\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:\n            matches = compiled_rules.match(file)\n        except Exception as e:\n            print(f\"An error occurred: {e}\")\n            pass",
+        "detail": ".history.app_20251016202749",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016202749",
+        "description": ".history.app_20251016202749",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = compiled_rules.match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016202749",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016202805",
+        "description": ".history.app_20251016202805",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == :",
+        "detail": ".history.app_20251016202805",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016202805",
+        "description": ".history.app_20251016202805",
+        "peekOfCode": "def scan_file_system():\n    compiled_rules = util.get_compiled_rules()\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:\n            matches = compiled_rules.match(file)\n        except Exception as e:\n            print(f\"An error occurred: {e}\")\n            pass",
+        "detail": ".history.app_20251016202805",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016202805",
+        "description": ".history.app_20251016202805",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = compiled_rules.match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016202805",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016202830",
+        "description": ".history.app_20251016202830",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if type(user_response) == 'str':",
+        "detail": ".history.app_20251016202830",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016202830",
+        "description": ".history.app_20251016202830",
+        "peekOfCode": "def scan_file_system():\n    compiled_rules = util.get_compiled_rules()\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:\n            matches = compiled_rules.match(file)\n        except Exception as e:\n            print(f\"An error occurred: {e}\")\n            pass",
+        "detail": ".history.app_20251016202830",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016202830",
+        "description": ".history.app_20251016202830",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = compiled_rules.match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016202830",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016202919",
+        "description": ".history.app_20251016202919",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if user_response == '1':",
+        "detail": ".history.app_20251016202919",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016202919",
+        "description": ".history.app_20251016202919",
+        "peekOfCode": "def scan_file_system():\n    compiled_rules = util.get_compiled_rules()\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:\n            matches = compiled_rules.match(file)\n        except Exception as e:\n            print(f\"An error occurred: {e}\")\n            pass",
+        "detail": ".history.app_20251016202919",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016202919",
+        "description": ".history.app_20251016202919",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = compiled_rules.match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016202919",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251016202922",
+        "description": ".history.app_20251016202922",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if user_response == '1':",
+        "detail": ".history.app_20251016202922",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251016202922",
+        "description": ".history.app_20251016202922",
+        "peekOfCode": "def scan_file_system():\n    compiled_rules = util.get_compiled_rules()\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:\n            matches = compiled_rules.match(file)\n        except Exception as e:\n            print(f\"An error occurred: {e}\")\n            pass",
+        "detail": ".history.app_20251016202922",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251016202922",
+        "description": ".history.app_20251016202922",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = compiled_rules.match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251016202922",
+        "documentation": {}
+    },
+    {
         "label": "get_yara_rules",
         "kind": 2,
         "importPath": ".history.utilities_20251013192430",
@@ -774,20 +1781,380 @@
         "documentation": {}
     },
     {
-        "label": "main",
+        "label": "get_yara_rules",
         "kind": 2,
-        "importPath": "app",
-        "description": "app",
-        "peekOfCode": "def main():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:",
-        "detail": "app",
+        "importPath": ".history.utilities_20251016201213",
+        "description": ".history.utilities_20251016201213",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251016201213",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201213",
+        "description": ".history.utilities_20251016201213",
+        "peekOfCode": "def get_all_files(drive_root):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of all the files on a computer\n   \"\"\"\n    all_files_list = []\n    for root, _, files in os.walk(drive_root):\n        for file in files:\n            all_files_list.append(os.path.join(root, file))",
+        "detail": ".history.utilities_20251016201213",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201213",
+        "description": ".history.utilities_20251016201213",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()",
+        "detail": ".history.utilities_20251016201213",
         "documentation": {}
     },
     {
         "label": "get_yara_rules",
         "kind": 2,
+        "importPath": ".history.utilities_20251016201436",
+        "description": ".history.utilities_20251016201436",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251016201436",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201436",
+        "description": ".history.utilities_20251016201436",
+        "peekOfCode": "def get_all_files(drive_root):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of all the files on a computer\n   \"\"\"\n    all_files_list = []\n    for root, _, files in os.walk(drive_root):\n        for file in files:\n            all_files_list.append(os.path.join(root, file))",
+        "detail": ".history.utilities_20251016201436",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201436",
+        "description": ".history.utilities_20251016201436",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_rules():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    return compiled_rules",
+        "detail": ".history.utilities_20251016201436",
+        "documentation": {}
+    },
+    {
+        "label": "get_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201436",
+        "description": ".history.utilities_20251016201436",
+        "peekOfCode": "def get_rules():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    return compiled_rules",
+        "detail": ".history.utilities_20251016201436",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201521",
+        "description": ".history.utilities_20251016201521",
+        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251016201521",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201521",
+        "description": ".history.utilities_20251016201521",
+        "peekOfCode": "def get_all_files(drive_root):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of all the files on a computer\n   \"\"\"\n    all_files_list = []\n    for root, _, files in os.walk(drive_root):\n        for file in files:\n            all_files_list.append(os.path.join(root, file))",
+        "detail": ".history.utilities_20251016201521",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201521",
+        "description": ".history.utilities_20251016201521",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    return compiled_rules",
+        "detail": ".history.utilities_20251016201521",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201521",
+        "description": ".history.utilities_20251016201521",
+        "peekOfCode": "def get_compiled_rules():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    return compiled_rules",
+        "detail": ".history.utilities_20251016201521",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201530",
+        "description": ".history.utilities_20251016201530",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251016201530",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201530",
+        "description": ".history.utilities_20251016201530",
+        "peekOfCode": "def get_all_files(drive_root):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of all the files on a computer\n   \"\"\"\n    all_files_list = []\n    for root, _, files in os.walk(drive_root):\n        for file in files:\n            all_files_list.append(os.path.join(root, file))",
+        "detail": ".history.utilities_20251016201530",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201530",
+        "description": ".history.utilities_20251016201530",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    return compiled_rules",
+        "detail": ".history.utilities_20251016201530",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201530",
+        "description": ".history.utilities_20251016201530",
+        "peekOfCode": "def get_compiled_rules():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    return compiled_rules",
+        "detail": ".history.utilities_20251016201530",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201622",
+        "description": ".history.utilities_20251016201622",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251016201622",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201622",
+        "description": ".history.utilities_20251016201622",
+        "peekOfCode": "def get_all_files(drive_root):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of all the files on a computer\n   \"\"\"\n    all_files_list = []\n    for root, _, files in os.walk(drive_root):\n        for file in files:\n            all_files_list.append(os.path.join(root, file))",
+        "detail": ".history.utilities_20251016201622",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201622",
+        "description": ".history.utilities_20251016201622",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    return compiled_rules",
+        "detail": ".history.utilities_20251016201622",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201622",
+        "description": ".history.utilities_20251016201622",
+        "peekOfCode": "def get_compiled_rules():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = util.get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    return compiled_rules",
+        "detail": ".history.utilities_20251016201622",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201641",
+        "description": ".history.utilities_20251016201641",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251016201641",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201641",
+        "description": ".history.utilities_20251016201641",
+        "peekOfCode": "def get_all_files(drive_root):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of all the files on a computer\n   \"\"\"\n    all_files_list = []\n    for root, _, files in os.walk(drive_root):\n        for file in files:\n            all_files_list.append(os.path.join(root, file))",
+        "detail": ".history.utilities_20251016201641",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201641",
+        "description": ".history.utilities_20251016201641",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    return compiled_rules",
+        "detail": ".history.utilities_20251016201641",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201641",
+        "description": ".history.utilities_20251016201641",
+        "peekOfCode": "def get_compiled_rules():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    return compiled_rules",
+        "detail": ".history.utilities_20251016201641",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201650",
+        "description": ".history.utilities_20251016201650",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251016201650",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201650",
+        "description": ".history.utilities_20251016201650",
+        "peekOfCode": "def get_all_files(drive_root):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of all the files on a computer\n   \"\"\"\n    all_files_list = []\n    for root, _, files in os.walk(drive_root):\n        for file in files:\n            all_files_list.append(os.path.join(root, file))",
+        "detail": ".history.utilities_20251016201650",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201650",
+        "description": ".history.utilities_20251016201650",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    return compiled_rules",
+        "detail": ".history.utilities_20251016201650",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251016201650",
+        "description": ".history.utilities_20251016201650",
+        "peekOfCode": "def get_compiled_rules():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    return compiled_rules",
+        "detail": ".history.utilities_20251016201650",
+        "documentation": {}
+    },
+    {
+        "label": "parse_yara_rule",
+        "kind": 2,
+        "importPath": "yararules.comprehensive-yara-rules.utils.rule_indexer",
+        "description": "yararules.comprehensive-yara-rules.utils.rule_indexer",
+        "peekOfCode": "def parse_yara_rule(file_path):\n    \"\"\"Parse YARA rule file to extract metadata.\"\"\"\n    rule_data = {\n        \"file\": os.path.basename(file_path),\n        \"path\": file_path,\n        \"rules\": []\n    }\n    with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:\n        content = f.read()\n    # Find all rule definitions",
+        "detail": "yararules.comprehensive-yara-rules.utils.rule_indexer",
+        "documentation": {}
+    },
+    {
+        "label": "build_index",
+        "kind": 2,
+        "importPath": "yararules.comprehensive-yara-rules.utils.rule_indexer",
+        "description": "yararules.comprehensive-yara-rules.utils.rule_indexer",
+        "peekOfCode": "def build_index(repo_dir):\n    \"\"\"Build an index of all YARA rules in the repository.\"\"\"\n    index = {\n        \"indexed_at\": datetime.now().strftime(\"%Y-%m-%d %H:%M:%S\"),\n        \"categories\": {}\n    }\n    # Directories matching the repository structure\n    categories = [\n        \"malware\", \"ransomware\", \"backdoors\", \"trojans\", \"information_stealers\",\n        \"exploits\", \"apt\", \"packers\", \"cryptominers\", \"webshells\", \"maldocs\",",
+        "detail": "yararules.comprehensive-yara-rules.utils.rule_indexer",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "yararules.comprehensive-yara-rules.utils.rule_indexer",
+        "description": "yararules.comprehensive-yara-rules.utils.rule_indexer",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description='YARA Rule Repository Indexer')\n    parser.add_argument('--repo-dir', default='.', help='Repository root directory')\n    parser.add_argument('--output', default='rule_index.json', help='Output index file path')\n    args = parser.parse_args()\n    print(f\"Building YARA rule index for: {args.repo_dir}\")\n    index = build_index(args.repo_dir)\n    with open(args.output, 'w') as f:\n        json.dump(index, f, indent=2)\n    # Print summary",
+        "detail": "yararules.comprehensive-yara-rules.utils.rule_indexer",
+        "documentation": {}
+    },
+    {
+        "label": "walk_error",
+        "kind": 2,
+        "importPath": "yararules.signature-base.build-rules",
+        "description": "yararules.signature-base.build-rules",
+        "peekOfCode": "def walk_error(err):\n    try:\n        if \"Error 3\" in str(err):\n            logging.error(removeNonAsciiDrop(str(err)))\n            print(\"Directory walk error\")\n            sys.exit(1)\n    except UnicodeError as e:\n        print(\"Unicode decode error in walk error message\")\n        sys.exit(1)\ndef removeNonAsciiDrop(string):",
+        "detail": "yararules.signature-base.build-rules",
+        "documentation": {}
+    },
+    {
+        "label": "removeNonAsciiDrop",
+        "kind": 2,
+        "importPath": "yararules.signature-base.build-rules",
+        "description": "yararules.signature-base.build-rules",
+        "peekOfCode": "def removeNonAsciiDrop(string):\n    nonascii = \"error\"\n    try:\n        # Generate a new string without disturbing characters\n        nonascii = \"\".join(i for i in string if ord(i)<127 and ord(i)>31)\n    except Exception as e:\n        traceback.print_exc()\n        pass\n    return nonascii\ndef transformOS(regex, platform):",
+        "detail": "yararules.signature-base.build-rules",
+        "documentation": {}
+    },
+    {
+        "label": "transformOS",
+        "kind": 2,
+        "importPath": "yararules.signature-base.build-rules",
+        "description": "yararules.signature-base.build-rules",
+        "peekOfCode": "def transformOS(regex, platform):\n    # Replace '\\' with '/' on Linux/Unix/OSX\n    if platform != \"windows\":\n        regex = regex.replace(r'\\\\', r'/')\n        regex = regex.replace(r'C:', '')\n    return regex\ndef replaceEnvVars(path):\n    # Setting new path to old path for default\n    new_path = path\n    # ENV VARS ----------------------------------------------------------------",
+        "detail": "yararules.signature-base.build-rules",
+        "documentation": {}
+    },
+    {
+        "label": "replaceEnvVars",
+        "kind": 2,
+        "importPath": "yararules.signature-base.build-rules",
+        "description": "yararules.signature-base.build-rules",
+        "peekOfCode": "def replaceEnvVars(path):\n    # Setting new path to old path for default\n    new_path = path\n    # ENV VARS ----------------------------------------------------------------\n    # Now check if an environment env is included in the path string\n    res = re.search(r\"([@]?%[A-Za-z_]+%)\", path)\n    if res:\n        env_var_full = res.group(1)\n        env_var = env_var_full.replace(\"%\", \"\").replace(\"@\", \"\")\n        # Check environment varibales if there is a matching var",
+        "detail": "yararules.signature-base.build-rules",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_filename_iocs",
+        "kind": 2,
+        "importPath": "yararules.signature-base.build-rules",
+        "description": "yararules.signature-base.build-rules",
+        "peekOfCode": "def initialize_filename_iocs():\n    try:\n        for ioc_filename in os.listdir(FILENAME_IOC_DIRECTORY):\n            if 'filename' in ioc_filename:\n                logging.info(\"Compiling Filename IOCs from %s\" % ioc_filename)\n                with codecs.open(os.path.join(FILENAME_IOC_DIRECTORY, ioc_filename), 'r', encoding='utf-8') as file:\n                    lines = file.readlines()\n                    # Last Comment Line\n                    last_comment = \"\"\n                    for line in lines:",
+        "detail": "yararules.signature-base.build-rules",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_yara_rules",
+        "kind": 2,
+        "importPath": "yararules.signature-base.build-rules",
+        "description": "yararules.signature-base.build-rules",
+        "peekOfCode": "def initialize_yara_rules():\n    yaraRules = \"\"\n    dummy = \"\"\n    try:\n        for yara_rule_directory in YARA_RULE_DIRECTORIES:\n            if not os.path.exists(yara_rule_directory):\n                continue\n            logging.info(\"Processing YARA rules folder {0}\".format(yara_rule_directory))\n            for root, directories, files in os.walk(yara_rule_directory, onerror=walk_error, followlinks=False):\n                for file in files:",
+        "detail": "yararules.signature-base.build-rules",
+        "documentation": {}
+    },
+    {
+        "label": "YARA_RULE_DIRECTORIES",
+        "kind": 5,
+        "importPath": "yararules.signature-base.build-rules",
+        "description": "yararules.signature-base.build-rules",
+        "peekOfCode": "YARA_RULE_DIRECTORIES = [r'./yara']\nFILENAME_IOC_DIRECTORY = r'./iocs'\ndef walk_error(err):\n    try:\n        if \"Error 3\" in str(err):\n            logging.error(removeNonAsciiDrop(str(err)))\n            print(\"Directory walk error\")\n            sys.exit(1)\n    except UnicodeError as e:\n        print(\"Unicode decode error in walk error message\")",
+        "detail": "yararules.signature-base.build-rules",
+        "documentation": {}
+    },
+    {
+        "label": "FILENAME_IOC_DIRECTORY",
+        "kind": 5,
+        "importPath": "yararules.signature-base.build-rules",
+        "description": "yararules.signature-base.build-rules",
+        "peekOfCode": "FILENAME_IOC_DIRECTORY = r'./iocs'\ndef walk_error(err):\n    try:\n        if \"Error 3\" in str(err):\n            logging.error(removeNonAsciiDrop(str(err)))\n            print(\"Directory walk error\")\n            sys.exit(1)\n    except UnicodeError as e:\n        print(\"Unicode decode error in walk error message\")\n        sys.exit(1)",
+        "detail": "yararules.signature-base.build-rules",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def main():\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")\n    user_response = input('''\n          Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.\n        3) Scan the entire system.\n                        ''')\n    if user_response == '1':",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def scan_file_system():\n    compiled_rules = util.get_compiled_rules()\n    matches = []\n    files_to_scan = util.get_all_files(\"C:\\\\\")\n    for file in files_to_scan:\n        try:\n            matches = compiled_rules.match(file)\n        except Exception as e:\n            print(f\"An error occurred: {e}\")\n            pass",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in pids:\n        matches = compiled_rules.match(pid=id)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
         "importPath": "utilities",
         "description": "utilities",
-        "peekOfCode": "def get_yara_rules(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
         "detail": "utilities",
         "documentation": {}
     },
@@ -797,6 +2164,24 @@
         "importPath": "utilities",
         "description": "utilities",
         "peekOfCode": "def get_all_files(drive_root):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A list of all the files on a computer\n   \"\"\"\n    all_files_list = []\n    for root, _, files in os.walk(drive_root):\n        for file in files:\n            all_files_list.append(os.path.join(root, file))",
+        "detail": "utilities",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": "utilities",
+        "description": "utilities",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    return compiled_rules",
+        "detail": "utilities",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": "utilities",
+        "description": "utilities",
+        "peekOfCode": "def get_compiled_rules():\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')\n    return compiled_rules",
         "detail": "utilities",
         "documentation": {}
     }
