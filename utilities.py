@@ -1,6 +1,8 @@
 import os
 import psutil
 import yara
+from halo import Halo
+
 def get_yara_rules_paths(yara_directory):
     """
     Load YARA rules from the 'yara_rules' directory.
@@ -36,6 +38,11 @@ def get_process_pids():
     return psutil.pids()
 
 def get_compiled_rules():
+    spinner = Halo(text='Compiling Yara Rules', spinner='dots')
+    spinner.text_color = 'blue'
+    spinner.start()
+    
+
     if os.path.exists('.//yararules//yara_compiled_rules'):
         compiled_rules = yara.load('.//yararules//yara_compiled_rules')
     
@@ -44,4 +51,5 @@ def get_compiled_rules():
         yara_rules_dict = get_yara_rules_paths('.\\yararules')
         compiled_rules = yara.compile(filepaths=yara_rules_dict)
         compiled_rules.save('.//yararules//yara_compiled_rules')
+    spinner.stop()
     return compiled_rules

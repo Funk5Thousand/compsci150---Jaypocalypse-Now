@@ -2,7 +2,7 @@ import utilities as util
 import yara
 import os
 import psutil
-
+from halo import Halo
 def main():
 
 
@@ -31,23 +31,33 @@ def main():
 def scan_file_system():
     compiled_rules = util.get_compiled_rules()
     matches = []
-    files_to_scan = util.get_all_files("C:\\")
-    for file in files_to_scan:
-        try:
-            matches = compiled_rules.match(file)
+    partitions = psutil.disk_partitions()
+    for p in partitions:
+        files_to_scan = util.get_all_files(p.device)
+        for file in files_to_scan:
+            spinner_message = 'Scanning file system. File: ' + str(file)
+            with Halo(text=spinner_message, spinner='dots', text_color = 'magenta', animation = 'bounce'):
+            
+                try:
+                    matches = compiled_rules.match(file)
 
-        except Exception as e:
-            print(f"An error occurred: {e}")
-            pass
+                except Exception as e:
+                    print(f"An error occurred: {e}")
+                    pass
     for match in matches:
         for item in match:
             print(str(item))
-def scan_processes():
-    compiled_rules = util.get_compiled_rules()
-    pids = util.get_process_pids()
-    for id in pids:
-        matches = compiled_rules.match(pid=id)
+    
 
+def scan_processes():
+    with Halo(text='Scanning system processes...', spinner='dots', text_color = 'magenta', animation = 'bounce'):
+        compiled_rules = util.get_compiled_rules()
+        pids = util.get_process_pids()
+        for id in pids:
+            spinner_message = 'Scanning systen processes. Process #: ' + str(id)
+            with Halo(text=spinner_message, spinner='dots', text_color = 'magenta', animation = 'bounce'):
+                matches = compiled_rules.match(pid=id)
+    
 
 if __name__ == "__main__":
     main()
