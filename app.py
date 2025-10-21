@@ -1,6 +1,7 @@
 import utilities as util
 import yara
 import os
+from tqdm import tqdm
 import psutil
 from halo import Halo
 def main():
@@ -29,35 +30,37 @@ def main():
 
 
 def scan_file_system():
-    compiled_rules = util.get_compiled_rules()
+    with Halo(text="Gathering file system file data", spinner='dots', text_color = 'magenta', animation = 'bounce'):
+        compiled_rules = util.get_compiled_rules()
+        files_to_scan = tqdm(util.get_all_files())
     matches = []
-    partitions = psutil.disk_partitions()
-    for p in partitions:
-        files_to_scan = util.get_all_files(p.device)
-        for file in files_to_scan:
-            spinner_message = 'Scanning file system. File: ' + str(file)
-            with Halo(text=spinner_message, spinner='dots', text_color = 'magenta', animation = 'bounce'):
-            
-                try:
-                    matches = compiled_rules.match(file)
+    for file in files_to_scan:
+        base_file = os.path.basename(file)
+        message = "Scanning file: " + str(base_file[:15]).ljust(20)
+        files_to_scan.set_description(message)
+        try:
+            matches = compiled_rules.match(file, console_callback=error_handler)
 
-                except Exception as e:
-                    print(f"An error occurred: {e}")
-                    pass
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            pass
     for match in matches:
         for item in match:
             print(str(item))
-    
+
 
 def scan_processes():
-    with Halo(text='Scanning system processes...', spinner='dots', text_color = 'magenta', animation = 'bounce'):
-        compiled_rules = util.get_compiled_rules()
-        pids = util.get_process_pids()
-        for id in pids:
-            spinner_message = 'Scanning systen processes. Process #: ' + str(id)
-            with Halo(text=spinner_message, spinner='dots', text_color = 'magenta', animation = 'bounce'):
-                matches = compiled_rules.match(pid=id)
-    
+    compiled_rules = util.get_compiled_rules()
+    pids = util.get_process_pids()
+    for id in tqdm(pids):
+            matches = compiled_rules.match(pid=id)
+
+
+def error_handler(message):
+     if "An error occurred: could not open file" in message:
+          return 
+     else:
+          print(message)
 
 if __name__ == "__main__":
     main()

@@ -20,17 +20,14 @@ def get_yara_rules_paths(yara_directory):
     return yara_files
 
 
-def get_all_files(drive_root):
-    """
-    Load YARA rules from the 'yara_rules' directory.
-
-    Returns:
-        list: A list of all the files on a computer
-   """
+def get_all_files():
+    
+    partitions = psutil.disk_partitions()
     all_files_list = []
-    for root, _, files in os.walk(drive_root):
-        for file in files:
-            all_files_list.append(os.path.join(root, file))
+    for p in partitions:
+        for root, _, files in os.walk(p.device):
+            for file in files:
+                all_files_list.append(os.path.join(root, file))
     return all_files_list
 
 
