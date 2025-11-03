@@ -581,11 +581,27 @@
         "documentation": {}
     },
     {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
         "label": "halo",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "halo",
         "description": "halo",
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
         "detail": "halo",
         "documentation": {}
     },
@@ -1151,6 +1167,14 @@
         "importPath": "atexit",
         "description": "atexit",
         "detail": "atexit",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
         "documentation": {}
     },
     {
@@ -6917,6 +6941,60 @@
         "documentation": {}
     },
     {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251103170147",
+        "description": ".history.app_20251103170147",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
+        "detail": ".history.app_20251103170147",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": ".history.app_20251103170147",
+        "description": ".history.app_20251103170147",
+        "peekOfCode": "def greet_user(message):    \n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")",
+        "detail": ".history.app_20251103170147",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251103170147",
+        "description": ".history.app_20251103170147",
+        "peekOfCode": "def scan_file_system():\n    global saved_state_flag\n    with Halo(text=\"Gathering file system file data. Once scanning begins, press escape to exit.\", spinner='dots', text_color = 'magenta', animation = 'bounce'):\n        compiled_rules = util.get_compiled_rules()\n        files_to_scan = util.get_all_files()\n        if saved_state_flag == True:\n             if high_water_mark_file in files_to_scan:\n                  high_water_mark_index = files_to_scan.index(high_water_mark_file)\n                  temporary_file_list = files_to_scan[high_water_mark_index:]\n                  files_to_scan = temporary_file_list",
+        "detail": ".history.app_20251103170147",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251103170147",
+        "description": ".history.app_20251103170147",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):",
+        "detail": ".history.app_20251103170147",
+        "documentation": {}
+    },
+    {
+        "label": "save_progress_on_exit",
+        "kind": 2,
+        "importPath": ".history.app_20251103170147",
+        "description": ".history.app_20251103170147",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251103170147",
+        "documentation": {}
+    },
+    {
+        "label": "error_handler",
+        "kind": 2,
+        "importPath": ".history.app_20251103170147",
+        "description": ".history.app_20251103170147",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251103170147",
+        "documentation": {}
+    },
+    {
         "label": "get_yara_rules",
         "kind": 2,
         "importPath": ".history.utilities_20251013192430",
@@ -8001,7 +8079,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def main():\n# Save the original stdout\n# Create a StringIO object to capture the output\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
         "detail": "app",
         "documentation": {}
     },

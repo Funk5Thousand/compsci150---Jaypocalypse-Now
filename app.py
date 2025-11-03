@@ -10,11 +10,6 @@ import keyboard
 from io import StringIO
 def main():
     
-# Save the original stdout
-
-    
-# Create a StringIO object to capture the output
-
     
     global saved_state_flag
     global high_water_mark_file
