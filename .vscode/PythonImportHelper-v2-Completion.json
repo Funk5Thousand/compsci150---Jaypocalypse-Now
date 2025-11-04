@@ -709,11 +709,27 @@
         "documentation": {}
     },
     {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
         "label": "halo",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "halo",
         "description": "halo",
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
         "detail": "halo",
         "documentation": {}
     },
@@ -1535,14 +1551,6 @@
         "importPath": "atexit",
         "description": "atexit",
         "detail": "atexit",
-        "documentation": {}
-    },
-    {
-        "label": "StringIO",
-        "importPath": "io",
-        "description": "io",
-        "isExtraImport": true,
-        "detail": "io",
         "documentation": {}
     },
     {
@@ -8434,6 +8442,69 @@
         "description": ".history.app_20251103190408",
         "peekOfCode": "def positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n        if os.path.exists(file_path):\n            os.remove(file_path)\n            print(f\"{file_path} was detected as a virus and has been deleted.\")\n        else:\n            print(f\"{file_path} does not exist.\")\nif __name__ == \"__main__\":",
         "detail": ".history.app_20251103190408",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251103190758",
+        "description": ".history.app_20251103190758",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
+        "detail": ".history.app_20251103190758",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": ".history.app_20251103190758",
+        "description": ".history.app_20251103190758",
+        "peekOfCode": "def greet_user(message):    \n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")",
+        "detail": ".history.app_20251103190758",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251103190758",
+        "description": ".history.app_20251103190758",
+        "peekOfCode": "def scan_file_system():\n    global saved_state_flag\n    with Halo(text=\"Gathering file system file data. Once scanning begins, press escape to exit.\", spinner='dots', text_color = 'magenta', animation = 'bounce'):\n        compiled_rules = util.get_compiled_rules()\n        files_to_scan = util.get_all_files()\n        if saved_state_flag == True:\n             if high_water_mark_file in files_to_scan:\n                  high_water_mark_index = files_to_scan.index(high_water_mark_file)\n                  temporary_file_list = files_to_scan[high_water_mark_index:]\n                  files_to_scan = temporary_file_list",
+        "detail": ".history.app_20251103190758",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251103190758",
+        "description": ".history.app_20251103190758",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\n    for match in matches:\n        if match[\"matches\"]:\n             positive_yara_detection(match)\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file",
+        "detail": ".history.app_20251103190758",
+        "documentation": {}
+    },
+    {
+        "label": "save_progress_on_exit",
+        "kind": 2,
+        "importPath": ".history.app_20251103190758",
+        "description": ".history.app_20251103190758",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\ndef positive_yara_detection(file_path):",
+        "detail": ".history.app_20251103190758",
+        "documentation": {}
+    },
+    {
+        "label": "error_handler",
+        "kind": 2,
+        "importPath": ".history.app_20251103190758",
+        "description": ".history.app_20251103190758",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\ndef positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n        if os.path.exists(file_path):",
+        "detail": ".history.app_20251103190758",
+        "documentation": {}
+    },
+    {
+        "label": "positive_yara_detection",
+        "kind": 2,
+        "importPath": ".history.app_20251103190758",
+        "description": ".history.app_20251103190758",
+        "peekOfCode": "def positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n        if os.path.exists(file_path):\n            os.remove(file_path)\n            print(f\"{file_path} was detected as a virus and has been deleted.\")\n        else:\n            print(f\"{file_path} does not exist.\")\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251103190758",
         "documentation": {}
     },
     {

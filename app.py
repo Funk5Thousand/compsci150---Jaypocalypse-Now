@@ -8,7 +8,6 @@ import sys
 import atexit
 import keyboard
 import hashlib
-from io import StringIO
 def main():
     
     
