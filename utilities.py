@@ -2,6 +2,7 @@ import os
 import psutil
 import yara
 from halo import Halo
+import vt
 
 def get_yara_rules_paths(yara_directory):
     """
@@ -50,3 +51,19 @@ def get_compiled_rules():
         compiled_rules.save('.//yararules//yara_compiled_rules')
     spinner.stop()
     return compiled_rules
+
+def calculate_file_hash(file_path):
+    sha256_hasher = hashlib.sha256()
+    with open(file_path, "rb" as file):
+              for chink in iter(lambda: file.read(4096, b""):
+                sha256_hash.update(chunk)
+    return sha256_hash.hexdigest()
+
+def confirm_yara_positive(sha256_hash):
+    client = vt.Client("b4d2415ad3800d703b579ed15ae38108f51354156d918b46f2ebda36142285df")
+    file_string = "/files/" + sha256_hash
+    file = client.get_object(file_string)
+    if file.last_analysis_stats["malicious"] > 3:
+        return True
+    else:
+        return False

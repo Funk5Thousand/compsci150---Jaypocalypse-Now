@@ -7,6 +7,7 @@ from halo import Halo
 import sys
 import atexit
 import keyboard
+import hashlib
 from io import StringIO
 def main():
     
@@ -113,6 +114,9 @@ def scan_processes():
     pids = util.get_process_pids()
     for id in tqdm(pids):
             matches = compiled_rules.match(pid=id)
+    for match in matches:
+        if match["matches"]:
+             positive_yara_detection(match)
 
 def save_progress_on_exit():
 
@@ -127,5 +131,17 @@ def error_handler(message):
      else:
           print(message)
 
+def positive_yara_detection(file_path):
+     file_hash = util.calculate_file_hash(file_path)
+     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)
+     if is_file_vt_verified_bad:
+        if os.path.exists(file_path):
+            os.remove(file_path)
+            print(f"{file_path} was detected as a virus and has been deleted.")
+        else:
+            print(f"{file_path} does not exist.")
+
 if __name__ == "__main__":
     main()
+
+     

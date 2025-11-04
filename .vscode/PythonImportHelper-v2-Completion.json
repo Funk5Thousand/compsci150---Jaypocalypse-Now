@@ -589,11 +589,379 @@
         "documentation": {}
     },
     {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
         "label": "halo",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "halo",
         "description": "halo",
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
+        "detail": "halo",
+        "documentation": {}
+    },
+    {
+        "label": "Halo",
+        "importPath": "halo",
+        "description": "halo",
+        "isExtraImport": true,
         "detail": "halo",
         "documentation": {}
     },
@@ -1223,6 +1591,153 @@
         "description": "io",
         "isExtraImport": true,
         "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "haslib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "haslib",
+        "description": "haslib",
+        "detail": "haslib",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "vt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "vt",
+        "description": "vt",
+        "detail": "vt",
         "documentation": {}
     },
     {
@@ -6995,6 +7510,933 @@
         "documentation": {}
     },
     {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251103180845",
+        "description": ".history.app_20251103180845",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
+        "detail": ".history.app_20251103180845",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": ".history.app_20251103180845",
+        "description": ".history.app_20251103180845",
+        "peekOfCode": "def greet_user(message):    \n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")",
+        "detail": ".history.app_20251103180845",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251103180845",
+        "description": ".history.app_20251103180845",
+        "peekOfCode": "def scan_file_system():\n    global saved_state_flag\n    with Halo(text=\"Gathering file system file data. Once scanning begins, press escape to exit.\", spinner='dots', text_color = 'magenta', animation = 'bounce'):\n        compiled_rules = util.get_compiled_rules()\n        files_to_scan = util.get_all_files()\n        if saved_state_flag == True:\n             if high_water_mark_file in files_to_scan:\n                  high_water_mark_index = files_to_scan.index(high_water_mark_file)\n                  temporary_file_list = files_to_scan[high_water_mark_index:]\n                  files_to_scan = temporary_file_list",
+        "detail": ".history.app_20251103180845",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251103180845",
+        "description": ".history.app_20251103180845",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):",
+        "detail": ".history.app_20251103180845",
+        "documentation": {}
+    },
+    {
+        "label": "save_progress_on_exit",
+        "kind": 2,
+        "importPath": ".history.app_20251103180845",
+        "description": ".history.app_20251103180845",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251103180845",
+        "documentation": {}
+    },
+    {
+        "label": "error_handler",
+        "kind": 2,
+        "importPath": ".history.app_20251103180845",
+        "description": ".history.app_20251103180845",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251103180845",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251103180906",
+        "description": ".history.app_20251103180906",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
+        "detail": ".history.app_20251103180906",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": ".history.app_20251103180906",
+        "description": ".history.app_20251103180906",
+        "peekOfCode": "def greet_user(message):    \n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")",
+        "detail": ".history.app_20251103180906",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251103180906",
+        "description": ".history.app_20251103180906",
+        "peekOfCode": "def scan_file_system():\n    global saved_state_flag\n    with Halo(text=\"Gathering file system file data. Once scanning begins, press escape to exit.\", spinner='dots', text_color = 'magenta', animation = 'bounce'):\n        compiled_rules = util.get_compiled_rules()\n        files_to_scan = util.get_all_files()\n        if saved_state_flag == True:\n             if high_water_mark_file in files_to_scan:\n                  high_water_mark_index = files_to_scan.index(high_water_mark_file)\n                  temporary_file_list = files_to_scan[high_water_mark_index:]\n                  files_to_scan = temporary_file_list",
+        "detail": ".history.app_20251103180906",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251103180906",
+        "description": ".history.app_20251103180906",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):",
+        "detail": ".history.app_20251103180906",
+        "documentation": {}
+    },
+    {
+        "label": "save_progress_on_exit",
+        "kind": 2,
+        "importPath": ".history.app_20251103180906",
+        "description": ".history.app_20251103180906",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251103180906",
+        "documentation": {}
+    },
+    {
+        "label": "error_handler",
+        "kind": 2,
+        "importPath": ".history.app_20251103180906",
+        "description": ".history.app_20251103180906",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":\n    main()",
+        "detail": ".history.app_20251103180906",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251103184047",
+        "description": ".history.app_20251103184047",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
+        "detail": ".history.app_20251103184047",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": ".history.app_20251103184047",
+        "description": ".history.app_20251103184047",
+        "peekOfCode": "def greet_user(message):    \n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")",
+        "detail": ".history.app_20251103184047",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251103184047",
+        "description": ".history.app_20251103184047",
+        "peekOfCode": "def scan_file_system():\n    global saved_state_flag\n    with Halo(text=\"Gathering file system file data. Once scanning begins, press escape to exit.\", spinner='dots', text_color = 'magenta', animation = 'bounce'):\n        compiled_rules = util.get_compiled_rules()\n        files_to_scan = util.get_all_files()\n        if saved_state_flag == True:\n             if high_water_mark_file in files_to_scan:\n                  high_water_mark_index = files_to_scan.index(high_water_mark_file)\n                  temporary_file_list = files_to_scan[high_water_mark_index:]\n                  files_to_scan = temporary_file_list",
+        "detail": ".history.app_20251103184047",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251103184047",
+        "description": ".history.app_20251103184047",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):",
+        "detail": ".history.app_20251103184047",
+        "documentation": {}
+    },
+    {
+        "label": "save_progress_on_exit",
+        "kind": 2,
+        "importPath": ".history.app_20251103184047",
+        "description": ".history.app_20251103184047",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251103184047",
+        "documentation": {}
+    },
+    {
+        "label": "error_handler",
+        "kind": 2,
+        "importPath": ".history.app_20251103184047",
+        "description": ".history.app_20251103184047",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":\n    main()\ndef positive_yara_detection(",
+        "detail": ".history.app_20251103184047",
+        "documentation": {}
+    },
+    {
+        "label": "positive_yara_detection",
+        "kind": 2,
+        "importPath": ".history.app_20251103184047",
+        "description": ".history.app_20251103184047",
+        "peekOfCode": "def positive_yara_detection(",
+        "detail": ".history.app_20251103184047",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251103184103",
+        "description": ".history.app_20251103184103",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
+        "detail": ".history.app_20251103184103",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": ".history.app_20251103184103",
+        "description": ".history.app_20251103184103",
+        "peekOfCode": "def greet_user(message):    \n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")",
+        "detail": ".history.app_20251103184103",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251103184103",
+        "description": ".history.app_20251103184103",
+        "peekOfCode": "def scan_file_system():\n    global saved_state_flag\n    with Halo(text=\"Gathering file system file data. Once scanning begins, press escape to exit.\", spinner='dots', text_color = 'magenta', animation = 'bounce'):\n        compiled_rules = util.get_compiled_rules()\n        files_to_scan = util.get_all_files()\n        if saved_state_flag == True:\n             if high_water_mark_file in files_to_scan:\n                  high_water_mark_index = files_to_scan.index(high_water_mark_file)\n                  temporary_file_list = files_to_scan[high_water_mark_index:]\n                  files_to_scan = temporary_file_list",
+        "detail": ".history.app_20251103184103",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251103184103",
+        "description": ".history.app_20251103184103",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):",
+        "detail": ".history.app_20251103184103",
+        "documentation": {}
+    },
+    {
+        "label": "save_progress_on_exit",
+        "kind": 2,
+        "importPath": ".history.app_20251103184103",
+        "description": ".history.app_20251103184103",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251103184103",
+        "documentation": {}
+    },
+    {
+        "label": "error_handler",
+        "kind": 2,
+        "importPath": ".history.app_20251103184103",
+        "description": ".history.app_20251103184103",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":\n    main()\ndef positive_yara_detection(file_path):",
+        "detail": ".history.app_20251103184103",
+        "documentation": {}
+    },
+    {
+        "label": "positive_yara_detection",
+        "kind": 2,
+        "importPath": ".history.app_20251103184103",
+        "description": ".history.app_20251103184103",
+        "peekOfCode": "def positive_yara_detection(file_path):",
+        "detail": ".history.app_20251103184103",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251103184124",
+        "description": ".history.app_20251103184124",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
+        "detail": ".history.app_20251103184124",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": ".history.app_20251103184124",
+        "description": ".history.app_20251103184124",
+        "peekOfCode": "def greet_user(message):    \n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")",
+        "detail": ".history.app_20251103184124",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251103184124",
+        "description": ".history.app_20251103184124",
+        "peekOfCode": "def scan_file_system():\n    global saved_state_flag\n    with Halo(text=\"Gathering file system file data. Once scanning begins, press escape to exit.\", spinner='dots', text_color = 'magenta', animation = 'bounce'):\n        compiled_rules = util.get_compiled_rules()\n        files_to_scan = util.get_all_files()\n        if saved_state_flag == True:\n             if high_water_mark_file in files_to_scan:\n                  high_water_mark_index = files_to_scan.index(high_water_mark_file)\n                  temporary_file_list = files_to_scan[high_water_mark_index:]\n                  files_to_scan = temporary_file_list",
+        "detail": ".history.app_20251103184124",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251103184124",
+        "description": ".history.app_20251103184124",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):",
+        "detail": ".history.app_20251103184124",
+        "documentation": {}
+    },
+    {
+        "label": "save_progress_on_exit",
+        "kind": 2,
+        "importPath": ".history.app_20251103184124",
+        "description": ".history.app_20251103184124",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251103184124",
+        "documentation": {}
+    },
+    {
+        "label": "error_handler",
+        "kind": 2,
+        "importPath": ".history.app_20251103184124",
+        "description": ".history.app_20251103184124",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":\n    main()\ndef positive_yara_detection(file_path):\n     file_hash = calculate_file_hash(file_path)",
+        "detail": ".history.app_20251103184124",
+        "documentation": {}
+    },
+    {
+        "label": "positive_yara_detection",
+        "kind": 2,
+        "importPath": ".history.app_20251103184124",
+        "description": ".history.app_20251103184124",
+        "peekOfCode": "def positive_yara_detection(file_path):\n     file_hash = calculate_file_hash(file_path)",
+        "detail": ".history.app_20251103184124",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251103184146",
+        "description": ".history.app_20251103184146",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
+        "detail": ".history.app_20251103184146",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": ".history.app_20251103184146",
+        "description": ".history.app_20251103184146",
+        "peekOfCode": "def greet_user(message):    \n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")",
+        "detail": ".history.app_20251103184146",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251103184146",
+        "description": ".history.app_20251103184146",
+        "peekOfCode": "def scan_file_system():\n    global saved_state_flag\n    with Halo(text=\"Gathering file system file data. Once scanning begins, press escape to exit.\", spinner='dots', text_color = 'magenta', animation = 'bounce'):\n        compiled_rules = util.get_compiled_rules()\n        files_to_scan = util.get_all_files()\n        if saved_state_flag == True:\n             if high_water_mark_file in files_to_scan:\n                  high_water_mark_index = files_to_scan.index(high_water_mark_file)\n                  temporary_file_list = files_to_scan[high_water_mark_index:]\n                  files_to_scan = temporary_file_list",
+        "detail": ".history.app_20251103184146",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251103184146",
+        "description": ".history.app_20251103184146",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):",
+        "detail": ".history.app_20251103184146",
+        "documentation": {}
+    },
+    {
+        "label": "save_progress_on_exit",
+        "kind": 2,
+        "importPath": ".history.app_20251103184146",
+        "description": ".history.app_20251103184146",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251103184146",
+        "documentation": {}
+    },
+    {
+        "label": "error_handler",
+        "kind": 2,
+        "importPath": ".history.app_20251103184146",
+        "description": ".history.app_20251103184146",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":\n    main()\ndef positive_yara_detection(file_path):\n     file_hash = calculate_file_hash(file_path)\n     is_file_vt_verified =",
+        "detail": ".history.app_20251103184146",
+        "documentation": {}
+    },
+    {
+        "label": "positive_yara_detection",
+        "kind": 2,
+        "importPath": ".history.app_20251103184146",
+        "description": ".history.app_20251103184146",
+        "peekOfCode": "def positive_yara_detection(file_path):\n     file_hash = calculate_file_hash(file_path)\n     is_file_vt_verified =",
+        "detail": ".history.app_20251103184146",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251103184244",
+        "description": ".history.app_20251103184244",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
+        "detail": ".history.app_20251103184244",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": ".history.app_20251103184244",
+        "description": ".history.app_20251103184244",
+        "peekOfCode": "def greet_user(message):    \n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")",
+        "detail": ".history.app_20251103184244",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251103184244",
+        "description": ".history.app_20251103184244",
+        "peekOfCode": "def scan_file_system():\n    global saved_state_flag\n    with Halo(text=\"Gathering file system file data. Once scanning begins, press escape to exit.\", spinner='dots', text_color = 'magenta', animation = 'bounce'):\n        compiled_rules = util.get_compiled_rules()\n        files_to_scan = util.get_all_files()\n        if saved_state_flag == True:\n             if high_water_mark_file in files_to_scan:\n                  high_water_mark_index = files_to_scan.index(high_water_mark_file)\n                  temporary_file_list = files_to_scan[high_water_mark_index:]\n                  files_to_scan = temporary_file_list",
+        "detail": ".history.app_20251103184244",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251103184244",
+        "description": ".history.app_20251103184244",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):",
+        "detail": ".history.app_20251103184244",
+        "documentation": {}
+    },
+    {
+        "label": "save_progress_on_exit",
+        "kind": 2,
+        "importPath": ".history.app_20251103184244",
+        "description": ".history.app_20251103184244",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251103184244",
+        "documentation": {}
+    },
+    {
+        "label": "error_handler",
+        "kind": 2,
+        "importPath": ".history.app_20251103184244",
+        "description": ".history.app_20251103184244",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":\n    main()\ndef positive_yara_detection(file_path):\n     file_hash = calculate_file_hash(file_path)\n     is_file_vt_verified_bad = confirm_yara_positive(file_hash)",
+        "detail": ".history.app_20251103184244",
+        "documentation": {}
+    },
+    {
+        "label": "positive_yara_detection",
+        "kind": 2,
+        "importPath": ".history.app_20251103184244",
+        "description": ".history.app_20251103184244",
+        "peekOfCode": "def positive_yara_detection(file_path):\n     file_hash = calculate_file_hash(file_path)\n     is_file_vt_verified_bad = confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n          # DELETE THE FILE",
+        "detail": ".history.app_20251103184244",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251103184256",
+        "description": ".history.app_20251103184256",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
+        "detail": ".history.app_20251103184256",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": ".history.app_20251103184256",
+        "description": ".history.app_20251103184256",
+        "peekOfCode": "def greet_user(message):    \n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")",
+        "detail": ".history.app_20251103184256",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251103184256",
+        "description": ".history.app_20251103184256",
+        "peekOfCode": "def scan_file_system():\n    global saved_state_flag\n    with Halo(text=\"Gathering file system file data. Once scanning begins, press escape to exit.\", spinner='dots', text_color = 'magenta', animation = 'bounce'):\n        compiled_rules = util.get_compiled_rules()\n        files_to_scan = util.get_all_files()\n        if saved_state_flag == True:\n             if high_water_mark_file in files_to_scan:\n                  high_water_mark_index = files_to_scan.index(high_water_mark_file)\n                  temporary_file_list = files_to_scan[high_water_mark_index:]\n                  files_to_scan = temporary_file_list",
+        "detail": ".history.app_20251103184256",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251103184256",
+        "description": ".history.app_20251103184256",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):",
+        "detail": ".history.app_20251103184256",
+        "documentation": {}
+    },
+    {
+        "label": "save_progress_on_exit",
+        "kind": 2,
+        "importPath": ".history.app_20251103184256",
+        "description": ".history.app_20251103184256",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251103184256",
+        "documentation": {}
+    },
+    {
+        "label": "error_handler",
+        "kind": 2,
+        "importPath": ".history.app_20251103184256",
+        "description": ".history.app_20251103184256",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":\n    main()\ndef positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)",
+        "detail": ".history.app_20251103184256",
+        "documentation": {}
+    },
+    {
+        "label": "positive_yara_detection",
+        "kind": 2,
+        "importPath": ".history.app_20251103184256",
+        "description": ".history.app_20251103184256",
+        "peekOfCode": "def positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n          # DELETE THE FILE",
+        "detail": ".history.app_20251103184256",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251103185018",
+        "description": ".history.app_20251103185018",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
+        "detail": ".history.app_20251103185018",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": ".history.app_20251103185018",
+        "description": ".history.app_20251103185018",
+        "peekOfCode": "def greet_user(message):    \n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")",
+        "detail": ".history.app_20251103185018",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251103185018",
+        "description": ".history.app_20251103185018",
+        "peekOfCode": "def scan_file_system():\n    global saved_state_flag\n    with Halo(text=\"Gathering file system file data. Once scanning begins, press escape to exit.\", spinner='dots', text_color = 'magenta', animation = 'bounce'):\n        compiled_rules = util.get_compiled_rules()\n        files_to_scan = util.get_all_files()\n        if saved_state_flag == True:\n             if high_water_mark_file in files_to_scan:\n                  high_water_mark_index = files_to_scan.index(high_water_mark_file)\n                  temporary_file_list = files_to_scan[high_water_mark_index:]\n                  files_to_scan = temporary_file_list",
+        "detail": ".history.app_20251103185018",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251103185018",
+        "description": ".history.app_20251103185018",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):",
+        "detail": ".history.app_20251103185018",
+        "documentation": {}
+    },
+    {
+        "label": "save_progress_on_exit",
+        "kind": 2,
+        "importPath": ".history.app_20251103185018",
+        "description": ".history.app_20251103185018",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251103185018",
+        "documentation": {}
+    },
+    {
+        "label": "error_handler",
+        "kind": 2,
+        "importPath": ".history.app_20251103185018",
+        "description": ".history.app_20251103185018",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":\n    main()\ndef positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)",
+        "detail": ".history.app_20251103185018",
+        "documentation": {}
+    },
+    {
+        "label": "positive_yara_detection",
+        "kind": 2,
+        "importPath": ".history.app_20251103185018",
+        "description": ".history.app_20251103185018",
+        "peekOfCode": "def positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n        file_path = \"path/to/infected_file.txt\"\n        if os.path.exists(file_path):\n    os.remove(file_path)\n    print(f\"{file_path} has been deleted.\")\nelse:\n    print(f\"{file_path} does not exist.\")",
+        "detail": ".history.app_20251103185018",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251103185045",
+        "description": ".history.app_20251103185045",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
+        "detail": ".history.app_20251103185045",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": ".history.app_20251103185045",
+        "description": ".history.app_20251103185045",
+        "peekOfCode": "def greet_user(message):    \n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")",
+        "detail": ".history.app_20251103185045",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251103185045",
+        "description": ".history.app_20251103185045",
+        "peekOfCode": "def scan_file_system():\n    global saved_state_flag\n    with Halo(text=\"Gathering file system file data. Once scanning begins, press escape to exit.\", spinner='dots', text_color = 'magenta', animation = 'bounce'):\n        compiled_rules = util.get_compiled_rules()\n        files_to_scan = util.get_all_files()\n        if saved_state_flag == True:\n             if high_water_mark_file in files_to_scan:\n                  high_water_mark_index = files_to_scan.index(high_water_mark_file)\n                  temporary_file_list = files_to_scan[high_water_mark_index:]\n                  files_to_scan = temporary_file_list",
+        "detail": ".history.app_20251103185045",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251103185045",
+        "description": ".history.app_20251103185045",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):",
+        "detail": ".history.app_20251103185045",
+        "documentation": {}
+    },
+    {
+        "label": "save_progress_on_exit",
+        "kind": 2,
+        "importPath": ".history.app_20251103185045",
+        "description": ".history.app_20251103185045",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251103185045",
+        "documentation": {}
+    },
+    {
+        "label": "error_handler",
+        "kind": 2,
+        "importPath": ".history.app_20251103185045",
+        "description": ".history.app_20251103185045",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":\n    main()\ndef positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)",
+        "detail": ".history.app_20251103185045",
+        "documentation": {}
+    },
+    {
+        "label": "positive_yara_detection",
+        "kind": 2,
+        "importPath": ".history.app_20251103185045",
+        "description": ".history.app_20251103185045",
+        "peekOfCode": "def positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n        if os.path.exists(file_path):\n            os.remove(file_path)\n            print(f\"{file_path} has been deleted.\")\n        else:\n            print(f\"{file_path} does not exist.\")",
+        "detail": ".history.app_20251103185045",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251103185854",
+        "description": ".history.app_20251103185854",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
+        "detail": ".history.app_20251103185854",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": ".history.app_20251103185854",
+        "description": ".history.app_20251103185854",
+        "peekOfCode": "def greet_user(message):    \n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")",
+        "detail": ".history.app_20251103185854",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251103185854",
+        "description": ".history.app_20251103185854",
+        "peekOfCode": "def scan_file_system():\n    global saved_state_flag\n    with Halo(text=\"Gathering file system file data. Once scanning begins, press escape to exit.\", spinner='dots', text_color = 'magenta', animation = 'bounce'):\n        compiled_rules = util.get_compiled_rules()\n        files_to_scan = util.get_all_files()\n        if saved_state_flag == True:\n             if high_water_mark_file in files_to_scan:\n                  high_water_mark_index = files_to_scan.index(high_water_mark_file)\n                  temporary_file_list = files_to_scan[high_water_mark_index:]\n                  files_to_scan = temporary_file_list",
+        "detail": ".history.app_20251103185854",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251103185854",
+        "description": ".history.app_20251103185854",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):",
+        "detail": ".history.app_20251103185854",
+        "documentation": {}
+    },
+    {
+        "label": "save_progress_on_exit",
+        "kind": 2,
+        "importPath": ".history.app_20251103185854",
+        "description": ".history.app_20251103185854",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\ndef positive_yara_detection(file_path):",
+        "detail": ".history.app_20251103185854",
+        "documentation": {}
+    },
+    {
+        "label": "error_handler",
+        "kind": 2,
+        "importPath": ".history.app_20251103185854",
+        "description": ".history.app_20251103185854",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\ndef positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n        if os.path.exists(file_path):",
+        "detail": ".history.app_20251103185854",
+        "documentation": {}
+    },
+    {
+        "label": "positive_yara_detection",
+        "kind": 2,
+        "importPath": ".history.app_20251103185854",
+        "description": ".history.app_20251103185854",
+        "peekOfCode": "def positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n        if os.path.exists(file_path):\n            os.remove(file_path)\n            print(f\"{file_path} has been deleted.\")\n        else:\n            print(f\"{file_path} does not exist.\")\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251103185854",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251103190240",
+        "description": ".history.app_20251103190240",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
+        "detail": ".history.app_20251103190240",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": ".history.app_20251103190240",
+        "description": ".history.app_20251103190240",
+        "peekOfCode": "def greet_user(message):    \n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")",
+        "detail": ".history.app_20251103190240",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251103190240",
+        "description": ".history.app_20251103190240",
+        "peekOfCode": "def scan_file_system():\n    global saved_state_flag\n    with Halo(text=\"Gathering file system file data. Once scanning begins, press escape to exit.\", spinner='dots', text_color = 'magenta', animation = 'bounce'):\n        compiled_rules = util.get_compiled_rules()\n        files_to_scan = util.get_all_files()\n        if saved_state_flag == True:\n             if high_water_mark_file in files_to_scan:\n                  high_water_mark_index = files_to_scan.index(high_water_mark_file)\n                  temporary_file_list = files_to_scan[high_water_mark_index:]\n                  files_to_scan = temporary_file_list",
+        "detail": ".history.app_20251103190240",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251103190240",
+        "description": ".history.app_20251103190240",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\n    for match in matches:\n        if match\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:",
+        "detail": ".history.app_20251103190240",
+        "documentation": {}
+    },
+    {
+        "label": "save_progress_on_exit",
+        "kind": 2,
+        "importPath": ".history.app_20251103190240",
+        "description": ".history.app_20251103190240",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\ndef positive_yara_detection(file_path):",
+        "detail": ".history.app_20251103190240",
+        "documentation": {}
+    },
+    {
+        "label": "error_handler",
+        "kind": 2,
+        "importPath": ".history.app_20251103190240",
+        "description": ".history.app_20251103190240",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\ndef positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n        if os.path.exists(file_path):",
+        "detail": ".history.app_20251103190240",
+        "documentation": {}
+    },
+    {
+        "label": "positive_yara_detection",
+        "kind": 2,
+        "importPath": ".history.app_20251103190240",
+        "description": ".history.app_20251103190240",
+        "peekOfCode": "def positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n        if os.path.exists(file_path):\n            os.remove(file_path)\n            print(f\"{file_path} has been deleted.\")\n        else:\n            print(f\"{file_path} does not exist.\")\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251103190240",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251103190301",
+        "description": ".history.app_20251103190301",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
+        "detail": ".history.app_20251103190301",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": ".history.app_20251103190301",
+        "description": ".history.app_20251103190301",
+        "peekOfCode": "def greet_user(message):    \n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")",
+        "detail": ".history.app_20251103190301",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251103190301",
+        "description": ".history.app_20251103190301",
+        "peekOfCode": "def scan_file_system():\n    global saved_state_flag\n    with Halo(text=\"Gathering file system file data. Once scanning begins, press escape to exit.\", spinner='dots', text_color = 'magenta', animation = 'bounce'):\n        compiled_rules = util.get_compiled_rules()\n        files_to_scan = util.get_all_files()\n        if saved_state_flag == True:\n             if high_water_mark_file in files_to_scan:\n                  high_water_mark_index = files_to_scan.index(high_water_mark_file)\n                  temporary_file_list = files_to_scan[high_water_mark_index:]\n                  files_to_scan = temporary_file_list",
+        "detail": ".history.app_20251103190301",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251103190301",
+        "description": ".history.app_20251103190301",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\n    for match in matches:\n        if match[\"matches\"]:\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:",
+        "detail": ".history.app_20251103190301",
+        "documentation": {}
+    },
+    {
+        "label": "save_progress_on_exit",
+        "kind": 2,
+        "importPath": ".history.app_20251103190301",
+        "description": ".history.app_20251103190301",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\ndef positive_yara_detection(file_path):",
+        "detail": ".history.app_20251103190301",
+        "documentation": {}
+    },
+    {
+        "label": "error_handler",
+        "kind": 2,
+        "importPath": ".history.app_20251103190301",
+        "description": ".history.app_20251103190301",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\ndef positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n        if os.path.exists(file_path):",
+        "detail": ".history.app_20251103190301",
+        "documentation": {}
+    },
+    {
+        "label": "positive_yara_detection",
+        "kind": 2,
+        "importPath": ".history.app_20251103190301",
+        "description": ".history.app_20251103190301",
+        "peekOfCode": "def positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n        if os.path.exists(file_path):\n            os.remove(file_path)\n            print(f\"{file_path} has been deleted.\")\n        else:\n            print(f\"{file_path} does not exist.\")\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251103190301",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251103190357",
+        "description": ".history.app_20251103190357",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
+        "detail": ".history.app_20251103190357",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": ".history.app_20251103190357",
+        "description": ".history.app_20251103190357",
+        "peekOfCode": "def greet_user(message):    \n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")",
+        "detail": ".history.app_20251103190357",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251103190357",
+        "description": ".history.app_20251103190357",
+        "peekOfCode": "def scan_file_system():\n    global saved_state_flag\n    with Halo(text=\"Gathering file system file data. Once scanning begins, press escape to exit.\", spinner='dots', text_color = 'magenta', animation = 'bounce'):\n        compiled_rules = util.get_compiled_rules()\n        files_to_scan = util.get_all_files()\n        if saved_state_flag == True:\n             if high_water_mark_file in files_to_scan:\n                  high_water_mark_index = files_to_scan.index(high_water_mark_file)\n                  temporary_file_list = files_to_scan[high_water_mark_index:]\n                  files_to_scan = temporary_file_list",
+        "detail": ".history.app_20251103190357",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251103190357",
+        "description": ".history.app_20251103190357",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\n    for match in matches:\n        if match[\"matches\"]:\n             positive_yara_detection(match)\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file",
+        "detail": ".history.app_20251103190357",
+        "documentation": {}
+    },
+    {
+        "label": "save_progress_on_exit",
+        "kind": 2,
+        "importPath": ".history.app_20251103190357",
+        "description": ".history.app_20251103190357",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\ndef positive_yara_detection(file_path):",
+        "detail": ".history.app_20251103190357",
+        "documentation": {}
+    },
+    {
+        "label": "error_handler",
+        "kind": 2,
+        "importPath": ".history.app_20251103190357",
+        "description": ".history.app_20251103190357",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\ndef positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n        if os.path.exists(file_path):",
+        "detail": ".history.app_20251103190357",
+        "documentation": {}
+    },
+    {
+        "label": "positive_yara_detection",
+        "kind": 2,
+        "importPath": ".history.app_20251103190357",
+        "description": ".history.app_20251103190357",
+        "peekOfCode": "def positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n        if os.path.exists(file_path):\n            os.remove(file_path)\n            print(f\"{file_path} has been deleted.\")\n        else:\n            print(f\"{file_path} does not exist.\")\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251103190357",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".history.app_20251103190408",
+        "description": ".history.app_20251103190408",
+        "peekOfCode": "def main():\n    global saved_state_flag\n    global high_water_mark_file\n    high_water_mark_file = \" \" \n    saved_state_flag = False\n    atexit.register(save_progress_on_exit)\n    message1 ='''\n        Welcome, What would you like to do? Enter the number for your choice.\n        1) Scan the file system.\n        2) Scan the active running processes.",
+        "detail": ".history.app_20251103190408",
+        "documentation": {}
+    },
+    {
+        "label": "greet_user",
+        "kind": 2,
+        "importPath": ".history.app_20251103190408",
+        "description": ".history.app_20251103190408",
+        "peekOfCode": "def greet_user(message):    \n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\" \")\n    print(\"Welcome to CompSci 150 Malware Scanner\")\n    print(\" \")",
+        "detail": ".history.app_20251103190408",
+        "documentation": {}
+    },
+    {
+        "label": "scan_file_system",
+        "kind": 2,
+        "importPath": ".history.app_20251103190408",
+        "description": ".history.app_20251103190408",
+        "peekOfCode": "def scan_file_system():\n    global saved_state_flag\n    with Halo(text=\"Gathering file system file data. Once scanning begins, press escape to exit.\", spinner='dots', text_color = 'magenta', animation = 'bounce'):\n        compiled_rules = util.get_compiled_rules()\n        files_to_scan = util.get_all_files()\n        if saved_state_flag == True:\n             if high_water_mark_file in files_to_scan:\n                  high_water_mark_index = files_to_scan.index(high_water_mark_file)\n                  temporary_file_list = files_to_scan[high_water_mark_index:]\n                  files_to_scan = temporary_file_list",
+        "detail": ".history.app_20251103190408",
+        "documentation": {}
+    },
+    {
+        "label": "scan_processes",
+        "kind": 2,
+        "importPath": ".history.app_20251103190408",
+        "description": ".history.app_20251103190408",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\n    for match in matches:\n        if match[\"matches\"]:\n             positive_yara_detection(match)\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file",
+        "detail": ".history.app_20251103190408",
+        "documentation": {}
+    },
+    {
+        "label": "save_progress_on_exit",
+        "kind": 2,
+        "importPath": ".history.app_20251103190408",
+        "description": ".history.app_20251103190408",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\ndef positive_yara_detection(file_path):",
+        "detail": ".history.app_20251103190408",
+        "documentation": {}
+    },
+    {
+        "label": "error_handler",
+        "kind": 2,
+        "importPath": ".history.app_20251103190408",
+        "description": ".history.app_20251103190408",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\ndef positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n        if os.path.exists(file_path):",
+        "detail": ".history.app_20251103190408",
+        "documentation": {}
+    },
+    {
+        "label": "positive_yara_detection",
+        "kind": 2,
+        "importPath": ".history.app_20251103190408",
+        "description": ".history.app_20251103190408",
+        "peekOfCode": "def positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n        if os.path.exists(file_path):\n            os.remove(file_path)\n            print(f\"{file_path} was detected as a virus and has been deleted.\")\n        else:\n            print(f\"{file_path} does not exist.\")\nif __name__ == \"__main__\":",
+        "detail": ".history.app_20251103190408",
+        "documentation": {}
+    },
+    {
         "label": "get_yara_rules",
         "kind": 2,
         "importPath": ".history.utilities_20251013192430",
@@ -8075,6 +9517,807 @@
         "documentation": {}
     },
     {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103180944",
+        "description": ".history.utilities_20251103180944",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251103180944",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103180944",
+        "description": ".history.utilities_20251103180944",
+        "peekOfCode": "def get_all_files():\n    partitions = psutil.disk_partitions()\n    all_files_list = []\n    for p in partitions:\n        for root, _, files in os.walk(p.device):\n            for file in files:\n                all_files_list.append(os.path.join(root, file))\n    return all_files_list\ndef get_process_pids():\n    return psutil.pids()",
+        "detail": ".history.utilities_20251103180944",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103180944",
+        "description": ".history.utilities_20251103180944",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')",
+        "detail": ".history.utilities_20251103180944",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103180944",
+        "description": ".history.utilities_20251103180944",
+        "peekOfCode": "def get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.utilities_20251103180944",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_file_hash",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103180944",
+        "description": ".history.utilities_20251103180944",
+        "peekOfCode": "def calculate_file_hash(file_path):",
+        "detail": ".history.utilities_20251103180944",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181045",
+        "description": ".history.utilities_20251103181045",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251103181045",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181045",
+        "description": ".history.utilities_20251103181045",
+        "peekOfCode": "def get_all_files():\n    partitions = psutil.disk_partitions()\n    all_files_list = []\n    for p in partitions:\n        for root, _, files in os.walk(p.device):\n            for file in files:\n                all_files_list.append(os.path.join(root, file))\n    return all_files_list\ndef get_process_pids():\n    return psutil.pids()",
+        "detail": ".history.utilities_20251103181045",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181045",
+        "description": ".history.utilities_20251103181045",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')",
+        "detail": ".history.utilities_20251103181045",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181045",
+        "description": ".history.utilities_20251103181045",
+        "peekOfCode": "def get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.utilities_20251103181045",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_file_hash",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181045",
+        "description": ".history.utilities_20251103181045",
+        "peekOfCode": "def calculate_file_hash(file_path):",
+        "detail": ".history.utilities_20251103181045",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181226",
+        "description": ".history.utilities_20251103181226",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251103181226",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181226",
+        "description": ".history.utilities_20251103181226",
+        "peekOfCode": "def get_all_files():\n    partitions = psutil.disk_partitions()\n    all_files_list = []\n    for p in partitions:\n        for root, _, files in os.walk(p.device):\n            for file in files:\n                all_files_list.append(os.path.join(root, file))\n    return all_files_list\ndef get_process_pids():\n    return psutil.pids()",
+        "detail": ".history.utilities_20251103181226",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181226",
+        "description": ".history.utilities_20251103181226",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')",
+        "detail": ".history.utilities_20251103181226",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181226",
+        "description": ".history.utilities_20251103181226",
+        "peekOfCode": "def get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.utilities_20251103181226",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_file_hash",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181226",
+        "description": ".history.utilities_20251103181226",
+        "peekOfCode": "def calculate_file_hash(file_path):\n    sha256_hasher = haslkib.sha256()\n    with open(file_path, \"rb\" as file:\n              for chink in iter(lambda: file.read(4096, b\"\"):",
+        "detail": ".history.utilities_20251103181226",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181314",
+        "description": ".history.utilities_20251103181314",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251103181314",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181314",
+        "description": ".history.utilities_20251103181314",
+        "peekOfCode": "def get_all_files():\n    partitions = psutil.disk_partitions()\n    all_files_list = []\n    for p in partitions:\n        for root, _, files in os.walk(p.device):\n            for file in files:\n                all_files_list.append(os.path.join(root, file))\n    return all_files_list\ndef get_process_pids():\n    return psutil.pids()",
+        "detail": ".history.utilities_20251103181314",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181314",
+        "description": ".history.utilities_20251103181314",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')",
+        "detail": ".history.utilities_20251103181314",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181314",
+        "description": ".history.utilities_20251103181314",
+        "peekOfCode": "def get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.utilities_20251103181314",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_file_hash",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181314",
+        "description": ".history.utilities_20251103181314",
+        "peekOfCode": "def calculate_file_hash(file_path):\n    sha256_hasher = haslkib.sha256()\n    with open(file_path, \"rb\" as file:\n              for chink in iter(lambda: file.read(4096, b\"\"):\n                sha256_hash.update(chunk)\n    return sha256_hash.hexdigest()",
+        "detail": ".history.utilities_20251103181314",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181841",
+        "description": ".history.utilities_20251103181841",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251103181841",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181841",
+        "description": ".history.utilities_20251103181841",
+        "peekOfCode": "def get_all_files():\n    partitions = psutil.disk_partitions()\n    all_files_list = []\n    for p in partitions:\n        for root, _, files in os.walk(p.device):\n            for file in files:\n                all_files_list.append(os.path.join(root, file))\n    return all_files_list\ndef get_process_pids():\n    return psutil.pids()",
+        "detail": ".history.utilities_20251103181841",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181841",
+        "description": ".history.utilities_20251103181841",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')",
+        "detail": ".history.utilities_20251103181841",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181841",
+        "description": ".history.utilities_20251103181841",
+        "peekOfCode": "def get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.utilities_20251103181841",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_file_hash",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103181841",
+        "description": ".history.utilities_20251103181841",
+        "peekOfCode": "def calculate_file_hash(file_path):\n    sha256_hasher = hashlib.sha256()\n    with open(file_path, \"rb\" as file):\n              for chink in iter(lambda: file.read(4096, b\"\"):\n                sha256_hash.update(chunk)\n    return sha256_hash.hexdigest()",
+        "detail": ".history.utilities_20251103181841",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182317",
+        "description": ".history.utilities_20251103182317",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251103182317",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182317",
+        "description": ".history.utilities_20251103182317",
+        "peekOfCode": "def get_all_files():\n    partitions = psutil.disk_partitions()\n    all_files_list = []\n    for p in partitions:\n        for root, _, files in os.walk(p.device):\n            for file in files:\n                all_files_list.append(os.path.join(root, file))\n    return all_files_list\ndef get_process_pids():\n    return psutil.pids()",
+        "detail": ".history.utilities_20251103182317",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182317",
+        "description": ".history.utilities_20251103182317",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')",
+        "detail": ".history.utilities_20251103182317",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182317",
+        "description": ".history.utilities_20251103182317",
+        "peekOfCode": "def get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.utilities_20251103182317",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_file_hash",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182317",
+        "description": ".history.utilities_20251103182317",
+        "peekOfCode": "def calculate_file_hash(file_path):\n    sha256_hasher = hashlib.sha256()\n    with open(file_path, \"rb\" as file):\n              for chink in iter(lambda: file.read(4096, b\"\"):\n                sha256_hash.update(chunk)\n    return sha256_hash.hexdigest()",
+        "detail": ".history.utilities_20251103182317",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182406",
+        "description": ".history.utilities_20251103182406",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251103182406",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182406",
+        "description": ".history.utilities_20251103182406",
+        "peekOfCode": "def get_all_files():\n    partitions = psutil.disk_partitions()\n    all_files_list = []\n    for p in partitions:\n        for root, _, files in os.walk(p.device):\n            for file in files:\n                all_files_list.append(os.path.join(root, file))\n    return all_files_list\ndef get_process_pids():\n    return psutil.pids()",
+        "detail": ".history.utilities_20251103182406",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182406",
+        "description": ".history.utilities_20251103182406",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')",
+        "detail": ".history.utilities_20251103182406",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182406",
+        "description": ".history.utilities_20251103182406",
+        "peekOfCode": "def get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.utilities_20251103182406",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_file_hash",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182406",
+        "description": ".history.utilities_20251103182406",
+        "peekOfCode": "def calculate_file_hash(file_path):\n    sha256_hasher = hashlib.sha256()\n    with open(file_path, \"rb\" as file):\n              for chink in iter(lambda: file.read(4096, b\"\"):\n                sha256_hash.update(chunk)\n    return sha256_hash.hexdigest()",
+        "detail": ".history.utilities_20251103182406",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182459",
+        "description": ".history.utilities_20251103182459",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251103182459",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182459",
+        "description": ".history.utilities_20251103182459",
+        "peekOfCode": "def get_all_files():\n    partitions = psutil.disk_partitions()\n    all_files_list = []\n    for p in partitions:\n        for root, _, files in os.walk(p.device):\n            for file in files:\n                all_files_list.append(os.path.join(root, file))\n    return all_files_list\ndef get_process_pids():\n    return psutil.pids()",
+        "detail": ".history.utilities_20251103182459",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182459",
+        "description": ".history.utilities_20251103182459",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')",
+        "detail": ".history.utilities_20251103182459",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182459",
+        "description": ".history.utilities_20251103182459",
+        "peekOfCode": "def get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.utilities_20251103182459",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_file_hash",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182459",
+        "description": ".history.utilities_20251103182459",
+        "peekOfCode": "def calculate_file_hash(file_path):\n    sha256_hasher = hashlib.sha256()\n    with open(file_path, \"rb\" as file):\n              for chink in iter(lambda: file.read(4096, b\"\"):\n                sha256_hash.update(chunk)\n    return sha256_hash.hexdigest()\ndef confirm_yara_positive(sha256_hash):\n    client = vt.Client(",
+        "detail": ".history.utilities_20251103182459",
+        "documentation": {}
+    },
+    {
+        "label": "confirm_yara_positive",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182459",
+        "description": ".history.utilities_20251103182459",
+        "peekOfCode": "def confirm_yara_positive(sha256_hash):\n    client = vt.Client(",
+        "detail": ".history.utilities_20251103182459",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182651",
+        "description": ".history.utilities_20251103182651",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251103182651",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182651",
+        "description": ".history.utilities_20251103182651",
+        "peekOfCode": "def get_all_files():\n    partitions = psutil.disk_partitions()\n    all_files_list = []\n    for p in partitions:\n        for root, _, files in os.walk(p.device):\n            for file in files:\n                all_files_list.append(os.path.join(root, file))\n    return all_files_list\ndef get_process_pids():\n    return psutil.pids()",
+        "detail": ".history.utilities_20251103182651",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182651",
+        "description": ".history.utilities_20251103182651",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')",
+        "detail": ".history.utilities_20251103182651",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182651",
+        "description": ".history.utilities_20251103182651",
+        "peekOfCode": "def get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.utilities_20251103182651",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_file_hash",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182651",
+        "description": ".history.utilities_20251103182651",
+        "peekOfCode": "def calculate_file_hash(file_path):\n    sha256_hasher = hashlib.sha256()\n    with open(file_path, \"rb\" as file):\n              for chink in iter(lambda: file.read(4096, b\"\"):\n                sha256_hash.update(chunk)\n    return sha256_hash.hexdigest()\ndef confirm_yara_positive(sha256_hash):\n    client = vt.Client(\"API_KEY\")",
+        "detail": ".history.utilities_20251103182651",
+        "documentation": {}
+    },
+    {
+        "label": "confirm_yara_positive",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182651",
+        "description": ".history.utilities_20251103182651",
+        "peekOfCode": "def confirm_yara_positive(sha256_hash):\n    client = vt.Client(\"API_KEY\")",
+        "detail": ".history.utilities_20251103182651",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182700",
+        "description": ".history.utilities_20251103182700",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251103182700",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182700",
+        "description": ".history.utilities_20251103182700",
+        "peekOfCode": "def get_all_files():\n    partitions = psutil.disk_partitions()\n    all_files_list = []\n    for p in partitions:\n        for root, _, files in os.walk(p.device):\n            for file in files:\n                all_files_list.append(os.path.join(root, file))\n    return all_files_list\ndef get_process_pids():\n    return psutil.pids()",
+        "detail": ".history.utilities_20251103182700",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182700",
+        "description": ".history.utilities_20251103182700",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')",
+        "detail": ".history.utilities_20251103182700",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182700",
+        "description": ".history.utilities_20251103182700",
+        "peekOfCode": "def get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.utilities_20251103182700",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_file_hash",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182700",
+        "description": ".history.utilities_20251103182700",
+        "peekOfCode": "def calculate_file_hash(file_path):\n    sha256_hasher = hashlib.sha256()\n    with open(file_path, \"rb\" as file):\n              for chink in iter(lambda: file.read(4096, b\"\"):\n                sha256_hash.update(chunk)\n    return sha256_hash.hexdigest()\ndef confirm_yara_positive(sha256_hash",
+        "detail": ".history.utilities_20251103182700",
+        "documentation": {}
+    },
+    {
+        "label": "confirm_yara_positive",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182700",
+        "description": ".history.utilities_20251103182700",
+        "peekOfCode": "def confirm_yara_positive(sha256_hash",
+        "detail": ".history.utilities_20251103182700",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182733",
+        "description": ".history.utilities_20251103182733",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251103182733",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182733",
+        "description": ".history.utilities_20251103182733",
+        "peekOfCode": "def get_all_files():\n    partitions = psutil.disk_partitions()\n    all_files_list = []\n    for p in partitions:\n        for root, _, files in os.walk(p.device):\n            for file in files:\n                all_files_list.append(os.path.join(root, file))\n    return all_files_list\ndef get_process_pids():\n    return psutil.pids()",
+        "detail": ".history.utilities_20251103182733",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182733",
+        "description": ".history.utilities_20251103182733",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')",
+        "detail": ".history.utilities_20251103182733",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182733",
+        "description": ".history.utilities_20251103182733",
+        "peekOfCode": "def get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.utilities_20251103182733",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_file_hash",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182733",
+        "description": ".history.utilities_20251103182733",
+        "peekOfCode": "def calculate_file_hash(file_path):\n    sha256_hasher = hashlib.sha256()\n    with open(file_path, \"rb\" as file):\n              for chink in iter(lambda: file.read(4096, b\"\"):\n                sha256_hash.update(chunk)\n    return sha256_hash.hexdigest()\ndef confirm_yara_positive(sha256_hash):\n    client = vt.Client(\"API_KEY\")\n    file = client.get_object(",
+        "detail": ".history.utilities_20251103182733",
+        "documentation": {}
+    },
+    {
+        "label": "confirm_yara_positive",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182733",
+        "description": ".history.utilities_20251103182733",
+        "peekOfCode": "def confirm_yara_positive(sha256_hash):\n    client = vt.Client(\"API_KEY\")\n    file = client.get_object(",
+        "detail": ".history.utilities_20251103182733",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182813",
+        "description": ".history.utilities_20251103182813",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251103182813",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182813",
+        "description": ".history.utilities_20251103182813",
+        "peekOfCode": "def get_all_files():\n    partitions = psutil.disk_partitions()\n    all_files_list = []\n    for p in partitions:\n        for root, _, files in os.walk(p.device):\n            for file in files:\n                all_files_list.append(os.path.join(root, file))\n    return all_files_list\ndef get_process_pids():\n    return psutil.pids()",
+        "detail": ".history.utilities_20251103182813",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182813",
+        "description": ".history.utilities_20251103182813",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')",
+        "detail": ".history.utilities_20251103182813",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182813",
+        "description": ".history.utilities_20251103182813",
+        "peekOfCode": "def get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.utilities_20251103182813",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_file_hash",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182813",
+        "description": ".history.utilities_20251103182813",
+        "peekOfCode": "def calculate_file_hash(file_path):\n    sha256_hasher = hashlib.sha256()\n    with open(file_path, \"rb\" as file):\n              for chink in iter(lambda: file.read(4096, b\"\"):\n                sha256_hash.update(chunk)\n    return sha256_hash.hexdigest()\ndef confirm_yara_positive(sha256_hash):\n    client = vt.Client(\"API_KEY\")\n    file_string = \"/files/\" + sha256_hash\n    file = client.get_object(file_string)",
+        "detail": ".history.utilities_20251103182813",
+        "documentation": {}
+    },
+    {
+        "label": "confirm_yara_positive",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182813",
+        "description": ".history.utilities_20251103182813",
+        "peekOfCode": "def confirm_yara_positive(sha256_hash):\n    client = vt.Client(\"API_KEY\")\n    file_string = \"/files/\" + sha256_hash\n    file = client.get_object(file_string)",
+        "detail": ".history.utilities_20251103182813",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182827",
+        "description": ".history.utilities_20251103182827",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251103182827",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182827",
+        "description": ".history.utilities_20251103182827",
+        "peekOfCode": "def get_all_files():\n    partitions = psutil.disk_partitions()\n    all_files_list = []\n    for p in partitions:\n        for root, _, files in os.walk(p.device):\n            for file in files:\n                all_files_list.append(os.path.join(root, file))\n    return all_files_list\ndef get_process_pids():\n    return psutil.pids()",
+        "detail": ".history.utilities_20251103182827",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182827",
+        "description": ".history.utilities_20251103182827",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')",
+        "detail": ".history.utilities_20251103182827",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182827",
+        "description": ".history.utilities_20251103182827",
+        "peekOfCode": "def get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.utilities_20251103182827",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_file_hash",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182827",
+        "description": ".history.utilities_20251103182827",
+        "peekOfCode": "def calculate_file_hash(file_path):\n    sha256_hasher = hashlib.sha256()\n    with open(file_path, \"rb\" as file):\n              for chink in iter(lambda: file.read(4096, b\"\"):\n                sha256_hash.update(chunk)\n    return sha256_hash.hexdigest()\ndef confirm_yara_positive(sha256_hash):\n    client = vt.Client(\"API_KEY\")\n    file_string = \"/files/\" + sha256_hash\n    file = client.get_object(file_string)",
+        "detail": ".history.utilities_20251103182827",
+        "documentation": {}
+    },
+    {
+        "label": "confirm_yara_positive",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182827",
+        "description": ".history.utilities_20251103182827",
+        "peekOfCode": "def confirm_yara_positive(sha256_hash):\n    client = vt.Client(\"API_KEY\")\n    file_string = \"/files/\" + sha256_hash\n    file = client.get_object(file_string)\n    file.last_analysis_stats",
+        "detail": ".history.utilities_20251103182827",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182846",
+        "description": ".history.utilities_20251103182846",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251103182846",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182846",
+        "description": ".history.utilities_20251103182846",
+        "peekOfCode": "def get_all_files():\n    partitions = psutil.disk_partitions()\n    all_files_list = []\n    for p in partitions:\n        for root, _, files in os.walk(p.device):\n            for file in files:\n                all_files_list.append(os.path.join(root, file))\n    return all_files_list\ndef get_process_pids():\n    return psutil.pids()",
+        "detail": ".history.utilities_20251103182846",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182846",
+        "description": ".history.utilities_20251103182846",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')",
+        "detail": ".history.utilities_20251103182846",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182846",
+        "description": ".history.utilities_20251103182846",
+        "peekOfCode": "def get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.utilities_20251103182846",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_file_hash",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182846",
+        "description": ".history.utilities_20251103182846",
+        "peekOfCode": "def calculate_file_hash(file_path):\n    sha256_hasher = hashlib.sha256()\n    with open(file_path, \"rb\" as file):\n              for chink in iter(lambda: file.read(4096, b\"\"):\n                sha256_hash.update(chunk)\n    return sha256_hash.hexdigest()\ndef confirm_yara_positive(sha256_hash):\n    client = vt.Client(\"API_KEY\")\n    file_string = \"/files/\" + sha256_hash\n    file = client.get_object(file_string)",
+        "detail": ".history.utilities_20251103182846",
+        "documentation": {}
+    },
+    {
+        "label": "confirm_yara_positive",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182846",
+        "description": ".history.utilities_20251103182846",
+        "peekOfCode": "def confirm_yara_positive(sha256_hash):\n    client = vt.Client(\"API_KEY\")\n    file_string = \"/files/\" + sha256_hash\n    file = client.get_object(file_string)\n    file.last_analysis_stats[\"malicious\"]",
+        "detail": ".history.utilities_20251103182846",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182920",
+        "description": ".history.utilities_20251103182920",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251103182920",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182920",
+        "description": ".history.utilities_20251103182920",
+        "peekOfCode": "def get_all_files():\n    partitions = psutil.disk_partitions()\n    all_files_list = []\n    for p in partitions:\n        for root, _, files in os.walk(p.device):\n            for file in files:\n                all_files_list.append(os.path.join(root, file))\n    return all_files_list\ndef get_process_pids():\n    return psutil.pids()",
+        "detail": ".history.utilities_20251103182920",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182920",
+        "description": ".history.utilities_20251103182920",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')",
+        "detail": ".history.utilities_20251103182920",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182920",
+        "description": ".history.utilities_20251103182920",
+        "peekOfCode": "def get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.utilities_20251103182920",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_file_hash",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182920",
+        "description": ".history.utilities_20251103182920",
+        "peekOfCode": "def calculate_file_hash(file_path):\n    sha256_hasher = hashlib.sha256()\n    with open(file_path, \"rb\" as file):\n              for chink in iter(lambda: file.read(4096, b\"\"):\n                sha256_hash.update(chunk)\n    return sha256_hash.hexdigest()\ndef confirm_yara_positive(sha256_hash):\n    client = vt.Client(\"API_KEY\")\n    file_string = \"/files/\" + sha256_hash\n    file = client.get_object(file_string)",
+        "detail": ".history.utilities_20251103182920",
+        "documentation": {}
+    },
+    {
+        "label": "confirm_yara_positive",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103182920",
+        "description": ".history.utilities_20251103182920",
+        "peekOfCode": "def confirm_yara_positive(sha256_hash):\n    client = vt.Client(\"API_KEY\")\n    file_string = \"/files/\" + sha256_hash\n    file = client.get_object(file_string)\n    if file.last_analysis_stats[\"malicious\"] > 3:\n        return True\n    else:\n        return False",
+        "detail": ".history.utilities_20251103182920",
+        "documentation": {}
+    },
+    {
+        "label": "get_yara_rules_paths",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103183023",
+        "description": ".history.utilities_20251103183023",
+        "peekOfCode": "def get_yara_rules_paths(yara_directory):\n    \"\"\"\n    Load YARA rules from the 'yara_rules' directory.\n    Returns:\n        list: A dictionary of YARA rule file paths.\n   \"\"\"\n    yara_files = {}\n    i = 1\n    for root, _, files in os.walk(yara_directory):\n        for file in files:",
+        "detail": ".history.utilities_20251103183023",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_files",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103183023",
+        "description": ".history.utilities_20251103183023",
+        "peekOfCode": "def get_all_files():\n    partitions = psutil.disk_partitions()\n    all_files_list = []\n    for p in partitions:\n        for root, _, files in os.walk(p.device):\n            for file in files:\n                all_files_list.append(os.path.join(root, file))\n    return all_files_list\ndef get_process_pids():\n    return psutil.pids()",
+        "detail": ".history.utilities_20251103183023",
+        "documentation": {}
+    },
+    {
+        "label": "get_process_pids",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103183023",
+        "description": ".history.utilities_20251103183023",
+        "peekOfCode": "def get_process_pids():\n    return psutil.pids()\ndef get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')",
+        "detail": ".history.utilities_20251103183023",
+        "documentation": {}
+    },
+    {
+        "label": "get_compiled_rules",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103183023",
+        "description": ".history.utilities_20251103183023",
+        "peekOfCode": "def get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": ".history.utilities_20251103183023",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_file_hash",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103183023",
+        "description": ".history.utilities_20251103183023",
+        "peekOfCode": "def calculate_file_hash(file_path):\n    sha256_hasher = hashlib.sha256()\n    with open(file_path, \"rb\" as file):\n              for chink in iter(lambda: file.read(4096, b\"\"):\n                sha256_hash.update(chunk)\n    return sha256_hash.hexdigest()\ndef confirm_yara_positive(sha256_hash):\n    client = vt.Client(\"b4d2415ad3800d703b579ed15ae38108f51354156d918b46f2ebda36142285df\")\n    file_string = \"/files/\" + sha256_hash\n    file = client.get_object(file_string)",
+        "detail": ".history.utilities_20251103183023",
+        "documentation": {}
+    },
+    {
+        "label": "confirm_yara_positive",
+        "kind": 2,
+        "importPath": ".history.utilities_20251103183023",
+        "description": ".history.utilities_20251103183023",
+        "peekOfCode": "def confirm_yara_positive(sha256_hash):\n    client = vt.Client(\"b4d2415ad3800d703b579ed15ae38108f51354156d918b46f2ebda36142285df\")\n    file_string = \"/files/\" + sha256_hash\n    file = client.get_object(file_string)\n    if file.last_analysis_stats[\"malicious\"] > 3:\n        return True\n    else:\n        return False",
+        "detail": ".history.utilities_20251103183023",
+        "documentation": {}
+    },
+    {
         "label": "main",
         "kind": 2,
         "importPath": "app",
@@ -8106,7 +10349,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):",
+        "peekOfCode": "def scan_processes():\n    compiled_rules = util.get_compiled_rules()\n    pids = util.get_process_pids()\n    for id in tqdm(pids):\n            matches = compiled_rules.match(pid=id)\n    for match in matches:\n        if match[\"matches\"]:\n             positive_yara_detection(match)\ndef save_progress_on_exit():\n    line_to_write = high_water_mark_file",
         "detail": "app",
         "documentation": {}
     },
@@ -8115,7 +10358,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":",
+        "peekOfCode": "def save_progress_on_exit():\n    line_to_write = high_water_mark_file\n    with open(\"scan_saved_progress_file\", \"w\") as f:\n         f.write(line_to_write)\ndef error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\ndef positive_yara_detection(file_path):",
         "detail": "app",
         "documentation": {}
     },
@@ -8124,7 +10367,16 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\nif __name__ == \"__main__\":\n    main()",
+        "peekOfCode": "def error_handler(message):\n     if \"An error occurred: could not open file\" in message:\n          return \n     else:\n          print(message)\ndef positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n        if os.path.exists(file_path):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "positive_yara_detection",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def positive_yara_detection(file_path):\n     file_hash = util.calculate_file_hash(file_path)\n     is_file_vt_verified_bad = util.confirm_yara_positive(file_hash)\n     if is_file_vt_verified_bad:\n        if os.path.exists(file_path):\n            os.remove(file_path)\n            print(f\"{file_path} was detected as a virus and has been deleted.\")\n        else:\n            print(f\"{file_path} does not exist.\")\nif __name__ == \"__main__\":",
         "detail": "app",
         "documentation": {}
     },
@@ -8161,6 +10413,24 @@
         "importPath": "utilities",
         "description": "utilities",
         "peekOfCode": "def get_compiled_rules():\n    spinner = Halo(text='Compiling Yara Rules', spinner='dots')\n    spinner.text_color = 'blue'\n    spinner.start()\n    if os.path.exists('.//yararules//yara_compiled_rules'):\n        compiled_rules = yara.load('.//yararules//yara_compiled_rules')\n    else:    \n        yara_rules_dict = get_yara_rules_paths('.\\\\yararules')\n        compiled_rules = yara.compile(filepaths=yara_rules_dict)\n        compiled_rules.save('.//yararules//yara_compiled_rules')",
+        "detail": "utilities",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_file_hash",
+        "kind": 2,
+        "importPath": "utilities",
+        "description": "utilities",
+        "peekOfCode": "def calculate_file_hash(file_path):\n    sha256_hasher = hashlib.sha256()\n    with open(file_path, \"rb\" as file):\n              for chink in iter(lambda: file.read(4096, b\"\"):\n                sha256_hash.update(chunk)\n    return sha256_hash.hexdigest()\ndef confirm_yara_positive(sha256_hash):\n    client = vt.Client(\"b4d2415ad3800d703b579ed15ae38108f51354156d918b46f2ebda36142285df\")\n    file_string = \"/files/\" + sha256_hash\n    file = client.get_object(file_string)",
+        "detail": "utilities",
+        "documentation": {}
+    },
+    {
+        "label": "confirm_yara_positive",
+        "kind": 2,
+        "importPath": "utilities",
+        "description": "utilities",
+        "peekOfCode": "def confirm_yara_positive(sha256_hash):\n    client = vt.Client(\"b4d2415ad3800d703b579ed15ae38108f51354156d918b46f2ebda36142285df\")\n    file_string = \"/files/\" + sha256_hash\n    file = client.get_object(file_string)\n    if file.last_analysis_stats[\"malicious\"] > 3:\n        return True\n    else:\n        return False",
         "detail": "utilities",
         "documentation": {}
     }
