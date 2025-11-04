@@ -54,8 +54,8 @@ def get_compiled_rules():
 
 def calculate_file_hash(file_path):
     sha256_hasher = hashlib.sha256()
-    with open(file_path, "rb" as file):
-              for chink in iter(lambda: file.read(4096, b""):
+    with open(file_path, "rb") as file:
+              for chunk in iter(lambda: file.read(4096, b"")):
                 sha256_hash.update(chunk)
     return sha256_hash.hexdigest()
 

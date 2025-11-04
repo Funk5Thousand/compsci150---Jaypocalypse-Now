@@ -103,8 +103,8 @@ def scan_file_system():
             print(f"An error occurred: {e}")
             pass
     for match in matches:
-        for item in match:
-            print(str(item))
+        if match["matches"]:
+            positive_yara_detection(match)
 
 
 
@@ -113,9 +113,7 @@ def scan_processes():
     pids = util.get_process_pids()
     for id in tqdm(pids):
             matches = compiled_rules.match(pid=id)
-    for match in matches:
-        if match["matches"]:
-             positive_yara_detection(match)
+
 
 def save_progress_on_exit():
 
